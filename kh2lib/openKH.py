@@ -6,16 +6,13 @@ class openKH:
     def _check_binary(self, binary):
         if not os.path.isfile(os.path.join(self.workdir, binary)):
             raise Exception("{} not found".format(binary))
-    def _run_binary(self, binary, args=[], input='', debug=False):
+    def _run_binary(self, binary, args=[], inp='', debug=False):
         self._check_binary(binary)
-        origDir = os.getcwd()
-        os.chdir(self.workdir)
-        print(binary,args)
-        output = subprocess.check_output([binary] + args, input=input)
+        proc = subprocess.Popen([binary] + args, cwd=self.workdir)
+        output = proc.communicate(inp)
         if debug:
             print(output)
-        os.chdir(origDir)
-        return output
+        return output[0]
     def bar_list(self, bar):
         # given a bar file, list the contents
         print(self._run_binary('OpenKh.Command.Bar.exe', args=['list', bar]).decode('utf-8'))
