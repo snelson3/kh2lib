@@ -11,7 +11,6 @@ class kh2fmtoolkit:
     def _run_binary(self, args=[], input='', debug=False):
         self._check_binary()
         origDir = os.getcwd()
-        print(args)
         os.chdir(self.workdir)
         try:
             output = subprocess.check_output(["KH2FM_Toolkit.exe"] + args, input=input)
@@ -28,13 +27,14 @@ class kh2fmtoolkit:
         print("extracting the game to {}".format(outdir))
         self._run_binary(['-extractor'])
         shutil.move(os.path.join(self.workdir,'export'), outdir)
-    def patch_game(self, patches, fn):
+    def patch_game(self, patches, fn, movefile=False, debug=False):
         self._check_binary()
         print("patching the game")
-        #self._run_binary(patches, debug=False)
-        print("moving iso")
-        # I don't see an way to name the output iso, so use shutil to move it 
-        shutil.move(os.path.join(self.workdir, 'KH2FM.NEW.ISO'), fn)
+        self._run_binary(patches, debug=debug)
+        if movefile:
+            print("moving iso")
+            # I don't see an way to name the output iso, so use shutil to move it 
+            shutil.move(os.path.join(self.workdir, 'KH2FM.NEW.ISO'), fn)
         print("all done")
     def create_patch(self, files, fn):
         self._check_binary()
@@ -45,3 +45,4 @@ class kh2fmtoolkit:
         args = ['-patchmaker', '-output', fn, '-author', self.author, '-version', self.version, '-skipchangelog', '-skipcredits']
         self._run_binary(args, input=inp)
         print("patch created")
+        return fn
