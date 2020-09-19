@@ -39,31 +39,25 @@ class kh2lib:
         return files
 
 
-    def create_patch(self, files=[], filesdir=None, fromgit=False, outfn='patch.kh2patch'):
+    def create_patch(self, files=[], filesdir=None, fromgit=False, outfn='patch.kh2patch', gitprefix='export/'):
         if filesdir:
             if os.path.isdir(filesdir):
                 files = files + [os.path.join(filesdir,f) for f in os.listdir(filesdir)]
         if fromgit:
-            #TODO This path should be generated based on the git URL, instaed of hardoded to export
-            #or not
-            origDir = os.getcwd()
-            os.chdir(self.patchengine.workdir)
-            gitfiles = ["export/" + f for f in self.get_git_modifications()]
+            gitfiles = [gitprefix + f for f in self.get_git_modifications()]
             parsedgitfiles = [f[11:] for f in gitfiles]
             # This might not work for all OSes
             for i in range(len(gitfiles)):
-                # My brain is broken, I need to just ensure the directory is there, but for now imma cheat and manually make the obj directory
-                # everything I'm testing tonight will work like this
-                shutil.copy(gitfiles[i], parsedgitfiles[i])
+                # I need to throw everything in a dist folder, so I can make sure it's clean in the case of an error during patching
+                directory = os.path.dirname(os.path.join(self.patchengine.workdir,parsedgitfiles[i]))
+                if not os.path.exists(directory):
+                    os.makedirs(directory)
+                shutil.copy(os.path.join(self.patchengine.workdir,gitfiles[i]), os.path.join(self.patchengine.workdir, parsedgitfiles[i]))
             files = files + parsedgitfiles
-            os.chdir(origDir)
         self.patchengine.create_patch(files, outfn)
         if fromgit:
-            os.chdir(self.patchengine.workdir)
-            # this is weird because it's defined in the other if loop, but it will always exist here
             for f in parsedgitfiles:
-                os.remove(f)
-            os.chdir(origDir)
+                os.remove(os.path.join(self.patchengine.workdir, f))
         return outfn
 
     def patch_game(self, patches=[], fromgit=False, fn='KH2-PATCHED.iso'):

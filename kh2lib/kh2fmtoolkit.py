@@ -8,10 +8,10 @@ class kh2fmtoolkit:
     def _check_binary(self):
         if not os.path.isfile(os.path.join(self.workdir, 'KH2FM_Toolkit.exe')):
             raise Exception("KH2FM_Toolkit.exe not found")
-    def _run_binary(self, args=[], inp='', debug=False):
+    def _run_binary(self, args=[], inp='', debug=True):
         self._check_binary()
-        proc = subprocess.Popen(["KH2FM_Toolkit.exe"] + args, cwd=self.workdir, shell=True)
-        output = proc.communicate(inp)
+        proc = subprocess.Popen(["KH2FM_Toolkit.exe"] + args, cwd=self.workdir, shell=True, stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+        output = proc.communicate(input=inp)
         # if inp == '':
         #     # Using check_output to perform a patch will crash with calledprocesserror at the end
         #     # although the iso does get successfully patched
