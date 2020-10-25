@@ -2,7 +2,7 @@ from .kh2fmtoolkit import kh2fmtoolkit
 from .pnachmaker import pnachmaker
 from .utils import getarg
 from .openKH import openKH
-import sys, subprocess, os, shutil
+import sys, subprocess, os, shutil, json
 
 class kh2lib:
     def __init__(self, gitpath=None, patchEngine=kh2fmtoolkit, cheatsfn=None):
@@ -11,6 +11,8 @@ class kh2lib:
         self.cheatengine = pnachmaker(getarg("outpath") or cheatsfn)
         self.patchengine = patchEngine(workdir=getarg("patchenginedir"))
         self.editengine = openKH(workdir=getarg("editorengine"))
+        self.worlds = json.load(open(os.path.join(os.path.dirname(__file__), "data", "worlds.json")))
+        self.objects = json.load(open(os.path.join(os.path.dirname(__file__), "data", "objlist.json")))
 
     def reset_git(self, files_to_remove=[], branch='master'):
         if not self.gitpath:
@@ -37,7 +39,6 @@ class kh2lib:
                 else:
                     print("Warning: Skipping file listed in git status:\n\t{}".format(f))
         return files
-
 
     def create_patch(self, files=[], filesdir=None, fromgit=False, outfn='patch.kh2patch', gitprefix='export/'):
         if filesdir:
@@ -67,3 +68,53 @@ class kh2lib:
             patches += [self.create_patch(fromgit=True)]
         self.patchengine.patch_game(patches, fn)
 
+    def get_object(self, ucm=None, mdlx=None, name=None):
+        # Return the object matching or a list if there are multiple
+        if len(list(filter(lambda k: k != None, list(set([ucm, mdlx, name]))))) != 1:
+            raise Exception("Must pass in exactly 1 of ucm, mdlx, or name!")
+        matches = []
+        if ucm:
+            match = str(ucm)
+            for obj in self.objects:
+                if match.zfill(4) == str(obj["ucm"]).zfill(4):
+                    matches.append(obj)
+        if mdlx:
+            match = str(mdlx)
+            for obj in self.objects:
+                if match.lower() == obj["mdlx"].lower():
+                    matches.append(obj)
+        if name:
+            match = name.lower().replace(' ', '')
+            for obj in self.objects:
+                if match in obj["name"].lower().replace(' ', ''):
+                    matches.append(obj)
+        if len(matches) == 0:
+            raise Exception("Object not found")
+        elif len(matches) == 1:
+            return matches[0]
+        return matches
+                
+        
+
+    
+    def get_world(self, wid=None, abv=None, name=None):
+        if len(list(filter(lambda k: k != None, list(set([wid, abv, name]))))) != 1:
+            raise Exception("Must pass in exactly 1 of wid, abv, or name!")
+        if wid:
+            for world in self.worlds:
+                match = str(wid)
+                if match == str(world["wid"]):
+                    return world
+            raise Exception("world {} not found".format(wid))
+        if abv:
+            for world in self.worlds:
+                match = abv.lower()
+                if match == world["abv"].lower():
+                    return world
+            raise Exception("world {} not found".format(abv))
+        if name:
+            match = name.lower().replace(' ', '')
+            for world in self.worlds:
+                if match == world["name"].lower().replace(' ', ''):
+                    return world
+            raise Exception("world {} not found".format(name))
