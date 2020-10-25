@@ -8,6 +8,8 @@ class openKH:
             raise Exception("{} not found".format(binary))
     def _run_binary(self, binary, args=[], inp='', debug=False):
         self._check_binary(binary)
+        if debug:
+            print(args)
         proc = subprocess.Popen([binary] + args, cwd=self.workdir, shell=True)
         output = proc.communicate(inp)
         if debug:

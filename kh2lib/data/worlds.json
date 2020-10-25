@@ -1,0 +1,21 @@
+[
+    {"wid": "00", "abv": "ZZ", "name": "World ZZ"},
+    {"wid": "01", "abv": "ES", "name": "End of Sea"},
+    {"wid": "02", "abv": "TT", "name": "Twilight Town"},
+    {"wid": "03", "abv": "DI", "name": "Destiny Island"},
+    {"wid": "04", "abv": "HB", "name": "Hollow Bastion"},
+    {"wid": "05", "abv": "BB", "name": "Beast's Castle"},
+    {"wid": "06", "abv": "HE", "name": "Olympus Coliseum"},
+    {"wid": "07", "abv": "AL", "name": "Agrabah"},
+    {"wid": "08", "abv": "MU", "name": "The Land of Dragons"},
+    {"wid": "09", "abv": "PO", "name": "100 Acre Wood"},
+    {"wid": "0A", "abv": "LK", "name": "Pride Rock"},
+    {"wid": "0B", "abv": "LM", "name": "Atlantica"},
+    {"wid": "0C", "abv": "DC", "name": "Disney Castle"},
+    {"wid": "0D", "abv": "WI", "name": "Timeless River"},
+    {"wid": "0E", "abv": "NM", "name": "Halloween Town"},
+    {"wid": "0F", "abv": "WM", "name": "World Map"},
+    {"wid": "10", "abv": "CA", "name": "Port Royal"},
+    {"wid": "11", "abv": "TR", "name": "Space Paranoids"},
+    {"wid": "12", "abv": "EH", "name": "The World That Never Was"}
+]

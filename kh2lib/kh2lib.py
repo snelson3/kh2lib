@@ -1,5 +1,6 @@
 from .kh2fmtoolkit import kh2fmtoolkit
 from .pnachmaker import pnachmaker
+from .memoryparser import memoryparser
 from .utils import getarg
 from .openKH import openKH
 import sys, subprocess, os, shutil, json
@@ -10,6 +11,7 @@ class kh2lib:
         self.gitpath = getarg("gitpath") or gitpath
         self.cheatengine = pnachmaker(getarg("outpath") or cheatsfn)
         self.patchengine = patchEngine(workdir=getarg("patchenginedir"))
+        self.parsingengine = memoryparser()
         self.editengine = openKH(workdir=getarg("editorengine"))
         self.worlds = json.load(open(os.path.join(os.path.dirname(__file__), "data", "worlds.json")))
         self.objects = json.load(open(os.path.join(os.path.dirname(__file__), "data", "objlist.json")))
