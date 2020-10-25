@@ -1,0 +1,1971 @@
+{
+    "Aerial Viking": {
+        "aiparam": "",
+        "animation": "M_EX210.mset",
+        "model": "M_EX210_HB",
+        "name": "Aerial Viking",
+        "size": 603180,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "096D"
+    },
+    "Aeroplane WI": {
+        "aiparam": "",
+        "animation": "M_EX540.mset",
+        "model": "M_EX540_WI",
+        "name": "Aeroplane WI",
+        "size": 245100,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0724"
+    },
+    "Air Pirate": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX210",
+        "name": "Air Pirate",
+        "size": 603320,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "004A"
+    },
+    "Anti-Sora": {
+        "aiparam": "",
+        "animation": "",
+        "model": "P_EX100_HTLF_BTL",
+        "name": "Anti-Sora",
+        "size": 1665404,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0934"
+    },
+    "Armor Xemnas": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX260",
+        "name": "Armor Xemnas",
+        "size": 1150276,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "085C"
+    },
+    "Armored Knight": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX760",
+        "name": "Armored Knight",
+        "size": 462904,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0131"
+    },
+    "Assassin": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX900",
+        "name": "Assassin",
+        "size": 1531924,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0135"
+    },
+    "Assault Rider": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX570",
+        "name": "Assault Rider",
+        "size": 1404236,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0009"
+    },
+    "Axel I": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_EX110_SKIRMISH",
+        "name": "Axel I",
+        "size": 1879368,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "08B5"
+    },
+    "Axel II": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX110",
+        "name": "Axel II",
+        "size": 2741104,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0051"
+    },
+    "Banzai": {
+        "aiparam": "",
+        "animation": "B_LK100.mset",
+        "model": "B_LK100_10",
+        "name": "Banzai",
+        "size": 699684,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "029A"
+    },
+    "Barbossa": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_CA010",
+        "name": "Barbossa",
+        "size": 3175016,
+        "spawns": [
+            "05E6"
+        ],
+        "type": "boss",
+        "ucm": "03F7"
+    },
+    "Barrel": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM070_BTL",
+        "name": "Barrel",
+        "size": 1006700,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0081"
+    },
+    "Barrel Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM070_BTL_2",
+        "name": "Barrel Dummy",
+        "size": 272536,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "03E2"
+    },
+    "Bees": {
+        "aiparam": "",
+        "animation": "",
+        "model": "F_PO090",
+        "name": "Bees",
+        "size": 41084,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0625"
+    },
+    "Beffudler": {
+        "aiparam": "",
+        "animation": "M_EX520.mset",
+        "model": "M_EX520_HB",
+        "name": "Beffudler",
+        "size": 298036,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0964"
+    },
+    "Berserker": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX940",
+        "name": "Berserker",
+        "size": 848210,
+        "spawns": [
+            "06BF"
+        ],
+        "type": "enemy",
+        "ucm": "0139"
+    },
+    "Berserker Sword": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX850",
+        "name": "Berserker Sword",
+        "size": 199256,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "06BF"
+    },
+    "Blizzard Lord": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_AL100_ICE",
+        "name": "Blizzard Lord",
+        "size": 1191968,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "040C"
+    },
+    "Bolt Tower": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX800",
+        "name": "Bolt Tower",
+        "size": 337392,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0627"
+    },
+    "Bolt Tower DC": {
+        "aiparam": "",
+        "animation": "M_EX800_RAW.mset",
+        "model": "M_EX800_DC",
+        "name": "Bolt Tower DC",
+        "size": 669940,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "08F0"
+    },
+    "Cannon Gun": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX650",
+        "name": "Cannon Gun",
+        "size": 280926,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "000E"
+    },
+    "Card Sora": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX950_CARD",
+        "name": "Card Sora",
+        "size": 84720,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0601"
+    },
+    "Cerberus": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_HE020",
+        "name": "Cerberus",
+        "size": 2494584,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "015F"
+    },
+    "Cloud": {
+        "aiparam": "1",
+        "animation": "N_HB550_BTL.mset",
+        "model": "N_HB550_BTL2",
+        "name": "Cloud",
+        "size": 1642502,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "08F9"
+    },
+    "Creeper": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX880",
+        "name": "Creeper",
+        "size": 563598,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "013D"
+    },
+    "Crescendo": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX740",
+        "name": "Crescendo",
+        "size": 343104,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "007C"
+    },
+    "Crimson Jazz": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX130",
+        "name": "Crimson Jazz",
+        "size": 290842,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0049"
+    },
+    "Crimson Jazz AL": {
+        "aiparam": "",
+        "animation": "M_EX130.mset",
+        "model": "M_EX130_AL",
+        "name": "Crimson Jazz AL",
+        "size": 285258,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0760"
+    },
+    "Dancer": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX930",
+        "name": "Dancer",
+        "size": 951352,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0138"
+    },
+    "Dark Thorn": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_BB110",
+        "name": "Dark Thorn",
+        "size": 2177276,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0162"
+    },
+    "Data Axel": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX110_LV99",
+        "name": "Data Axel",
+        "size": 2742180,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "09C4"
+    },
+    "Data Demyx": {
+        "aiparam": "",
+        "animation": "B_EX120_HB.mset",
+        "model": "B_EX120_HB_LV99",
+        "name": "Data Demyx",
+        "size": 3528528,
+        "spawns": [
+            "09FA"
+        ],
+        "type": "boss",
+        "ucm": "09CC"
+    },
+    "Data Demyx Water Clone": {
+        "aiparam": "",
+        "animation": "M_EX880_DANCER.mset",
+        "model": "M_EX880_DANCER_LV99",
+        "name": "Data Demyx Water Clone",
+        "size": 1342840,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "09FA"
+    },
+    "Data Final Xemnas": {
+        "aiparam": "",
+        "animation": "B_EX170_LAST.mset",
+        "model": "B_EX170_LAST_LV99",
+        "name": "Data Final Xemnas",
+        "size": 4538944,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "09CA"
+    },
+    "Data Larxene": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_EX400",
+        "name": "Data Larxene",
+        "size": 4443212,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0962"
+    },
+    "Data Lexaeus": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "N_CM020_BTL",
+        "name": "Data Lexaeus",
+        "size": 2359752,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0935"
+    },
+    "Data Luxord": {
+        "aiparam": "",
+        "animation": "B_EX150.mset",
+        "model": "B_EX150_LV99",
+        "name": "Data Luxord",
+        "size": 3430732,
+        "spawns": [
+            "05FF",
+            "0601",
+            "0602"
+        ],
+        "type": "boss",
+        "ucm": "09C8"
+    },
+    "Data Marluxia": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "N_CM000_BTL",
+        "name": "Data Marluxia",
+        "size": 3252168,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0923"
+    },
+    "Data Roxas": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_EX390",
+        "name": "Data Roxas",
+        "size": 3373592,
+        "spawns": [
+            "0952",
+            "0953"
+        ],
+        "type": "boss",
+        "ucm": "0951"
+    },
+    "Data Saix": {
+        "aiparam": "",
+        "animation": "B_EX160.mset",
+        "model": "B_EX160_LV99",
+        "name": "Data Saix",
+        "size": 3559034,
+        "spawns": [
+            "09FC"
+        ],
+        "type": "boss",
+        "ucm": "09C6"
+    },
+    "Data Saix Claymore": {
+        "aiparam": "",
+        "animation": "B_EX220.mset",
+        "model": "B_EX220_LV99",
+        "name": "Data Saix Claymore",
+        "size": 238004,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "09FC"
+    },
+    "Data Vexen": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "N_CM040_BTL",
+        "name": "Data Vexen",
+        "size": 4708244,
+        "spawns": [
+            "0934"
+        ],
+        "type": "boss",
+        "ucm": "0933"
+    },
+    "Data Xaldin": {
+        "aiparam": "",
+        "animation": "B_EX130.mset",
+        "model": "B_EX130_LV99",
+        "name": "Data Xaldin",
+        "size": 2741808,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "09CB"
+    },
+    "Data Xemnas": {
+        "aiparam": "",
+        "animation": "B_EX170.mset",
+        "model": "B_EX170_LV99",
+        "name": "Data Xemnas",
+        "size": 2607964,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "09C9"
+    },
+    "Data Xigbar": {
+        "aiparam": "",
+        "animation": "B_EX140",
+        "model": "B_EX140_LV99",
+        "name": "Data Xigbar",
+        "size": 557240,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "09C5"
+    },
+    "Data Zexion": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_EX370",
+        "name": "Data Zexion",
+        "size": 1939060,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "097B"
+    },
+    "Demyx": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX120_HB",
+        "name": "Demyx",
+        "size": 3527072,
+        "spawns": [
+            "04A0"
+        ],
+        "type": "boss",
+        "ucm": "08F7"
+    },
+    "Demyx OC": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX120",
+        "name": "Demyx OC",
+        "size": 2132546,
+        "spawns": [
+            "04A0"
+        ],
+        "type": "boss",
+        "ucm": "031B"
+    },
+    "Demyx's Water Clone": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX880_DANCER",
+        "name": "Demyx's Water Clone",
+        "size": 1342620,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "04A0"
+    },
+    "Devastator": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX680",
+        "name": "Devastator",
+        "size": 941282,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0010"
+    },
+    "Dice Sora": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX950_DICE",
+        "name": "Dice Sora",
+        "size": 97616,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0602"
+    },
+    "Dragon Xemnas": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX330",
+        "name": "Dragon Xemnas",
+        "size": 2689964,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "088D"
+    },
+    "Dragoon": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX890",
+        "name": "Dragoon",
+        "size": 1209752,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0134"
+    },
+    "Driller Mole": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX700",
+        "name": "Driller Mole",
+        "size": 469358,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0012"
+    },
+    "Driller Mole NM": {
+        "aiparam": "",
+        "animation": "M_EX700.mset",
+        "model": "M_EX700_NM",
+        "name": "Driller Mole NM",
+        "size": 469870,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0729"
+    },
+    "Dusk": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX990",
+        "name": "Dusk",
+        "size": 1013040,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "013E"
+    },
+    "Ed": {
+        "aiparam": "",
+        "animation": "B_LK100.mset",
+        "model": "B_LK100_20",
+        "name": "Ed",
+        "size": 700580,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "029B"
+    },
+    "Emerald Blues NM": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX120_NM",
+        "name": "Emerald Blues NM",
+        "size": 109420,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "072A"
+    },
+    "Fat Bandit": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX060",
+        "name": "Fat Bandit",
+        "size": 551572,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0001"
+    },
+    "Fiery Globe": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_AL020_FIRE",
+        "name": "Fiery Globe",
+        "size": 122640,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "004C"
+    },
+    "Fiery Globe Treasure Room": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_AL020_FIRE_RAW",
+        "name": "Fiery Globe Treasure Room",
+        "size": 732000,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0686"
+    },
+    "Fiery Globe Volcano Lord": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_AL020_FIRE2",
+        "name": "Fiery Globe Volcano Lord",
+        "size": 180522,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0689"
+    },
+    "Final Xemnas": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX170_LAST",
+        "name": "Final Xemnas",
+        "size": 4536360,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "081F"
+    },
+    "Fire Attack": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_AL110",
+        "name": "Fire Attack",
+        "size": 207636,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "07FB"
+    },
+    "Fortuneteller": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX620",
+        "name": "Fortuneteller",
+        "size": 632600,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "000B"
+    },
+    "Gambler": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX950",
+        "name": "Gambler",
+        "size": 1672788,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "013A"
+    },
+    "Gargoyle Knight": {
+        "aiparam": "",
+        "animation": "",
+        "model": "W_AL000",
+        "name": "Gargoyle Knight",
+        "size": 78392,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "006F"
+    },
+    "Gargoyle Warrior": {
+        "aiparam": "",
+        "animation": "",
+        "model": "W_HE000",
+        "name": "Gargoyle Warrior",
+        "size": 79594,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0070"
+    },
+    "Giant Sark": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_TR010_BTL_L",
+        "name": "Giant Sark",
+        "size": 933824,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "03C4"
+    },
+    "Graveyard NM": {
+        "aiparam": "",
+        "animation": "M_EX790.mset",
+        "model": "M_EX790_HALLOWEEN_NM",
+        "name": "Graveyard NM",
+        "size": 616628,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "06EF"
+    },
+    "Grey Triangle Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX200",
+        "name": "Grey Triangle Dummy",
+        "size": 577800,
+        "spawns": [
+            "013D"
+        ],
+        "type": "extra",
+        "ucm": "0361"
+    },
+    "Grim Reaper I": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_CA050",
+        "name": "Grim Reaper I",
+        "size": 1499488,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0607"
+    },
+    "Grim Reaper II": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_CA050",
+        "name": "Grim Reaper II",
+        "size": 1499488,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0607"
+    },
+    "Groundshaker": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_LK120",
+        "name": "Groundshaker",
+        "size": 3078386,
+        "spawns": [
+            "075C"
+        ],
+        "type": "boss",
+        "ucm": "0459"
+    },
+    "Hades Cups": {
+        "aiparam": "",
+        "animation": "B_HE030.mset",
+        "model": "B_HE030_CLSM",
+        "name": "Hades Cups",
+        "size": 2347708,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "090E"
+    },
+    "Hades Escape": {
+        "aiparam": "",
+        "animation": "B_HE030_PART.mset",
+        "model": "B_HE030_HE05",
+        "name": "Hades Escape",
+        "size": 1422564,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0812"
+    },
+    "Hades I": {
+        "aiparam": "",
+        "animation": "B_HE030_PART",
+        "model": "B_HE030_PART",
+        "name": "Hades I",
+        "size": 929856,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "015D"
+    },
+    "Hades II": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_HE030",
+        "name": "Hades II",
+        "size": 2351052,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "015E"
+    },
+    "Hammer Frame WI": {
+        "aiparam": "",
+        "animation": "M_EX560.mset",
+        "model": "M_EX560_WI",
+        "name": "Hammer Frame WI",
+        "size": 535724,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0726"
+    },
+    "Hayner": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_EX500_BTL",
+        "name": "Hayner",
+        "size": 791734,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "04D7"
+    },
+    "Hercules": {
+        "aiparam": "",
+        "animation": "N_HE010_BTL.mset",
+        "model": "N_HE010_BTL_CLSM",
+        "name": "Hercules",
+        "size": 2280296,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0910"
+    },
+    "Hook Bat": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX520",
+        "name": "Hook Bat",
+        "size": 296752,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0004"
+    },
+    "Hook Bat AL": {
+        "aiparam": "",
+        "animation": "M_EX520.mset",
+        "model": "M_EX520_AL",
+        "name": "Hook Bat AL",
+        "size": 292560,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "075F"
+    },
+    "Hostile Program": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_TR000",
+        "name": "Hostile Program",
+        "size": 1276992,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "04B8"
+    },
+    "Hot Rod WI": {
+        "aiparam": "",
+        "animation": "M_EX640.mset",
+        "model": "M_EX640_WI",
+        "name": "Hot Rod WI",
+        "size": 871428,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0727"
+    },
+    "Hydra": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_HE100",
+        "name": "Hydra",
+        "size": 2417732,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0160"
+    },
+    "Icy Cube": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_AL020_ICEE",
+        "name": "Icy Cube",
+        "size": 189784,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "004D"
+    },
+    "Icy Cube Treasure Room": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_AL020_ICEE_RAW",
+        "name": "Icy Cube Treasure Room",
+        "size": 872152,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0687"
+    },
+    "Illuminator": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_CA000",
+        "name": "Illuminator",
+        "size": 258308,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0166"
+    },
+    "Invisible Target": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX360",
+        "name": "Invisible Target",
+        "size": 552,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0912"
+    },
+    "Iron Hammer": {
+        "aiparam": "",
+        "animation": "M_EX560.mset",
+        "model": "M_EX560_HB",
+        "name": "Iron Hammer",
+        "size": 537416,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0965"
+    },
+    "Jafar": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_AL020",
+        "name": "Jafar",
+        "size": 1017964,
+        "spawns": [
+            "0640",
+            "0641",
+            "0642"
+        ],
+        "type": "boss",
+        "ucm": "015C"
+    },
+    "Jafar Flying Wreckage": {
+        "aiparam": "",
+        "animation": "",
+        "model": "F_AL160",
+        "name": "Jafar Flying Wreckage",
+        "size": 134096,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0642"
+    },
+    "Lance Soldier": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX690",
+        "name": "Lance Soldier",
+        "size": 754672,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0011"
+    },
+    "Lance Warrior": {
+        "aiparam": "",
+        "animation": "M_EX690.mset",
+        "model": "M_EX690_HB",
+        "name": "Lance Warrior",
+        "size": 755608,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0969"
+    },
+    "Large Body": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX050",
+        "name": "Large Body",
+        "size": 961136,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "012F"
+    },
+    "Larxene": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX400",
+        "name": "Larxene",
+        "size": 4443212,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0962"
+    },
+    "Leon": {
+        "aiparam": "1",
+        "animation": "N_HB530_BTL.mset",
+        "model": "N_HB530_BTL2",
+        "name": "Leon",
+        "size": 1278612,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "08F8"
+    },
+    "Lexaeus": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_CM020_BTL",
+        "name": "Lexaeus",
+        "size": 2359752,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0935"
+    },
+    "Lingering Will's Ultima Cannon Shot": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX430",
+        "name": "Lingering Will's Ultima Cannon Shot",
+        "size": 10952,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "09FD"
+    },
+    "Living Bone": {
+        "aiparam": "0",
+        "animation": "",
+        "model": "M_EX670",
+        "name": "Living Bone",
+        "size": 1417332,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "000F"
+    },
+    "Lock": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM050_BTL",
+        "name": "Lock",
+        "size": 599504,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "007F"
+    },
+    "Lock Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM050_BTL_2",
+        "name": "Lock Dummy",
+        "size": 279204,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "03E0"
+    },
+    "Luna Bandit": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX630",
+        "name": "Luna Bandit",
+        "size": 1436676,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "000C"
+    },
+    "Luxord": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX150",
+        "name": "Luxord",
+        "size": 3429892,
+        "spawns": [
+            "05FF",
+            "0601",
+            "0602"
+        ],
+        "type": "boss",
+        "ucm": "05F8"
+    },
+    "Luxord's Card": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX210",
+        "name": "Luxord's Card",
+        "size": 398180,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "05FF"
+    },
+    "Mad Ride": {
+        "aiparam": "",
+        "animation": "M_EX640.mset",
+        "model": "M_EX640_HB",
+        "name": "Mad Ride",
+        "size": 871788,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0966"
+    },
+    "Magic Phantom": {
+        "aiparam": "",
+        "animation": "M_EX500.mset",
+        "model": "M_EX500_HB",
+        "name": "Magic Phantom",
+        "size": 1020616,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0963"
+    },
+    "Magnum Loader": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX600",
+        "name": "Magnum Loader",
+        "size": 382620,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0079"
+    },
+    "Marluxia": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_CM000_BTL",
+        "name": "Marluxia",
+        "size": 3252168,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0923"
+    },
+    "Minute Bomb": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX550",
+        "name": "Minute Bomb",
+        "size": 400712,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0007"
+    },
+    "Minute Bomb WI": {
+        "aiparam": "",
+        "animation": "M_EX550.mset",
+        "model": "M_EX550_WI",
+        "name": "Minute Bomb WI",
+        "size": 400712,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0725"
+    },
+    "Morning Star": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX710",
+        "name": "Morning Star",
+        "size": 990288,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "007A"
+    },
+    "Necromancer": {
+        "aiparam": "",
+        "animation": "M_EX720.mset",
+        "model": "M_EX720_HB",
+        "name": "Necromancer",
+        "size": 698584,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "096B"
+    },
+    "Nightwalker": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX580",
+        "name": "Nightwalker",
+        "size": 602620,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "000A"
+    },
+    "No. 11": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX350_11",
+        "name": "No. 11",
+        "size": 772142,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0930"
+    },
+    "No. 4": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX350_04",
+        "name": "No. 4",
+        "size": 2644106,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0929"
+    },
+    "No. 7": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX350_07",
+        "name": "No. 7",
+        "size": 809722,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "092C"
+    },
+    "No. 8": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX350_08",
+        "name": "No. 8",
+        "size": 797468,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "092D"
+    },
+    "Nobody from Final Battle v1": {
+        "aiparam": "",
+        "animation": "",
+        "model": "EH_G_EX250",
+        "name": "Nobody from Final Battle v1",
+        "size": 87118,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "089A"
+    },
+    "Nothing": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_CA060",
+        "name": "Nothing",
+        "size": 6980,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "05E6"
+    },
+    "Oogie Boogie": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM000",
+        "name": "Oogie Boogie",
+        "size": 2223500,
+        "spawns": [
+            "03EB",
+            "03BC",
+            "03BD"
+        ],
+        "type": "boss",
+        "ucm": "007E"
+    },
+    "Oogie Box Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "F_NM100",
+        "name": "Oogie Box Dummy",
+        "size": 104980,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "03BC"
+    },
+    "Oogie Gift Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "F_NM110",
+        "name": "Oogie Gift Dummy",
+        "size": 698586,
+        "spawns": [
+            "0077",
+            "072A"
+        ],
+        "type": "extra",
+        "ucm": "03BD"
+    },
+    "Oogie Terminal Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "F_NM080",
+        "name": "Oogie Terminal Dummy",
+        "size": 434622,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "03EB"
+    },
+    "Past Pete": {
+        "aiparam": "",
+        "animation": "N_WI010_BTL.mset",
+        "model": "N_WI010_BTL_VS",
+        "name": "Past Pete",
+        "size": 896764,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0647"
+    },
+    "Pete Cups": {
+        "aiparam": "",
+        "animation": "N_EX760_BTL.mset",
+        "model": "N_EX760_BTL_CLSM",
+        "name": "Pete Cups",
+        "size": 1022460,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "090F"
+    },
+    "Pete OC I": {
+        "aiparam": "",
+        "animation": "N_EX760_BTL.mset",
+        "model": "N_EX760_BTL_MEGARA",
+        "name": "Pete OC I",
+        "size": 1022804,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "06BB"
+    },
+    "Pete OC II": {
+        "aiparam": "",
+        "animation": "N_EX760_BTL.mset",
+        "model": "N_EX760_BTL_HERCULES",
+        "name": "Pete OC II",
+        "size": 1022968,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "06BC"
+    },
+    "Pete TR": {
+        "aiparam": "",
+        "animation": "N_EX760_BTL_BOSS.mset",
+        "model": "N_EX760_BTL",
+        "name": "Pete TR",
+        "size": 968770,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0167"
+    },
+    "Prison Keeper": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM100",
+        "name": "Prison Keeper",
+        "size": 2314684,
+        "spawns": [
+            "03E0",
+            "03E1",
+            "03E2"
+        ],
+        "type": "boss",
+        "ucm": "05CE"
+    },
+    "Rapid Thruster": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX660",
+        "name": "Rapid Thruster",
+        "size": 251012,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0130"
+    },
+    "Rapid Thruster AL": {
+        "aiparam": "",
+        "animation": "M_EX660_AL",
+        "model": "M_EX660_AL",
+        "name": "Rapid Thruster AL",
+        "size": 73460,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0761"
+    },
+    "Rapid Thruster WI": {
+        "aiparam": "",
+        "animation": "M_EX500.mset",
+        "model": "M_EX500_NM",
+        "name": "Rapid Thruster WI",
+        "size": 1020248,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0733"
+    },
+    "Riku": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_EX940_BTL",
+        "name": "Riku",
+        "size": 755026,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "063C"
+    },
+    "Roxas": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX390",
+        "name": "Roxas",
+        "size": 3373592,
+        "spawns": [
+            "0952",
+            "0953"
+        ],
+        "type": "boss",
+        "ucm": "0951"
+    },
+    "Roxas Oathkeeper Keyblade": {
+        "aiparam": "",
+        "animation": "",
+        "model": "W_EX010_ROXAS_LIGHT",
+        "name": "Roxas Oathkeeper Keyblade",
+        "size": 114002,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0952"
+    },
+    "Roxas Oblivion Keyblade": {
+        "aiparam": "",
+        "animation": "",
+        "model": "W_EX010_ROXAS_DARK",
+        "name": "Roxas Oblivion Keyblade",
+        "size": 113602,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0953"
+    },
+    "Runemaster": {
+        "aiparam": "",
+        "animation": "M_EX530.mset",
+        "model": "M_EX530_HB",
+        "name": "Runemaster",
+        "size": 352940,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "096E"
+    },
+    "Saix": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX160",
+        "name": "Saix",
+        "size": 3557686,
+        "spawns": [
+            "06FA"
+        ],
+        "type": "boss",
+        "ucm": "06C9"
+    },
+    "Saix's Claymore": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX220",
+        "name": "Saix's Claymore",
+        "size": 237820,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "06FA"
+    },
+    "Samurai": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX910",
+        "name": "Samurai",
+        "size": 791312,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0136"
+    },
+    "Sark": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_TR010_BTL",
+        "name": "Sark",
+        "size": 956092,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "035E"
+    },
+    "Scar": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_LK110",
+        "name": "Scar",
+        "size": 1196392,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "029C"
+    },
+    "Seifer": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_EX570_BTL",
+        "name": "Seifer",
+        "size": 939680,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0678"
+    },
+    "Sephiroth": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_HB630",
+        "name": "Sephiroth",
+        "size": 2485952,
+        "spawns": [
+            "0912"
+        ],
+        "type": "boss",
+        "ucm": "08B6"
+    },
+    "Setzer": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_EX600_BTL",
+        "name": "Setzer",
+        "size": 1330656,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "082F"
+    },
+    "Shadow": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX020",
+        "name": "Shadow",
+        "size": 477686,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "012E"
+    },
+    "Shadow NM": {
+        "aiparam": "",
+        "animation": "M_EX020_RAW.mset",
+        "model": "M_EX020_NM_RAW",
+        "name": "Shadow NM",
+        "size": 4213606,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0731"
+    },
+    "Shadow Stalker": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_BB120",
+        "name": "Shadow Stalker",
+        "size": 887908,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0163"
+    },
+    "Shadow WI": {
+        "aiparam": "",
+        "animation": "M_EX020.mset",
+        "model": "M_EX020_WI",
+        "name": "Shadow WI",
+        "size": 477686,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0730"
+    },
+    "Shan-Yu": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_MU100",
+        "name": "Shan-Yu",
+        "size": 2631800,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0015"
+    },
+    "Shenzie": {
+        "aiparam": "",
+        "animation": "B_LK100.mset",
+        "model": "B_LK100_00",
+        "name": "Shenzie",
+        "size": 799588,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0299"
+    },
+    "Shock": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM060_BTL",
+        "name": "Shock",
+        "size": 977672,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0080"
+    },
+    "Shock Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_NM060_BTL_2",
+        "name": "Shock Dummy",
+        "size": 298980,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "03E1"
+    },
+    "Silver Rock": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX110",
+        "name": "Silver Rock",
+        "size": 212176,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0047"
+    },
+    "Sniper": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX920",
+        "name": "Sniper",
+        "size": 547096,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0137"
+    },
+    "Soldier": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX010",
+        "name": "Soldier",
+        "size": 787284,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "012D"
+    },
+    "Soldier NM": {
+        "aiparam": "",
+        "animation": "M_EX010.mset",
+        "model": "M_EX010_NM",
+        "name": "Soldier NM",
+        "size": 787284,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "072E"
+    },
+    "Sorcerer": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX870",
+        "name": "Sorcerer",
+        "size": 1741312,
+        "spawns": [
+            "013B"
+        ],
+        "type": "enemy",
+        "ucm": "013C"
+    },
+    "Sorcerer Doesnt Attack": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX960",
+        "name": "Sorcerer Doesnt Attack",
+        "size": 1541496,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "013B"
+    },
+    "Spring Metal": {
+        "aiparam": "",
+        "animation": "M_EX120.mset",
+        "model": "M_EX120_HB",
+        "name": "Spring Metal",
+        "size": 186364,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "096C"
+    },
+    "Storm Rider": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_MU120",
+        "name": "Storm Rider",
+        "size": 2006116,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0165"
+    },
+    "Strafer": {
+        "aiparam": "",
+        "animation": "M_EX610.mset",
+        "model": "M_EX610_RAW",
+        "name": "Strafer",
+        "size": 363704,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0753"
+    },
+    "Surveillance Robot": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX770",
+        "name": "Surveillance Robot",
+        "size": 369292,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0132"
+    },
+    "Terra": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX420",
+        "name": "Terra",
+        "size": 2854684,
+        "spawns": [
+            "09FD"
+        ],
+        "type": "boss",
+        "ucm": "096F"
+    },
+    "The Beast": {
+        "aiparam": "",
+        "animation": "",
+        "model": "P_BB000_BTL",
+        "name": "The Beast",
+        "size": 1657608,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "02CE"
+    },
+    "The Experiment": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM110",
+        "name": "The Experiment",
+        "size": 3549978,
+        "spawns": [
+            "0710",
+            "0711",
+            "0712"
+        ],
+        "type": "boss",
+        "ucm": "05D0"
+    },
+    "The Experiment Head": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM110_HEAD",
+        "name": "The Experiment Head",
+        "size": 771246,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0710"
+    },
+    "The Experiment Left Hand": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM110_L_ARM",
+        "name": "The Experiment Left Hand",
+        "size": 788874,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0711"
+    },
+    "The Experiment Right Hand": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_NM110_R_ARM",
+        "name": "The Experiment Right Hand",
+        "size": 767918,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "0712"
+    },
+    "Thresholder": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_BB100",
+        "name": "Thresholder",
+        "size": 1426680,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0161"
+    },
+    "Tifa": {
+        "aiparam": "1",
+        "animation": "N_HB570_BTL.mset",
+        "model": "N_HB570_BTL2",
+        "name": "Tifa",
+        "size": 1053854,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "08FA"
+    },
+    "Tiny Pyramid Dummy": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_LK130",
+        "name": "Tiny Pyramid Dummy",
+        "size": 77342,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "075C"
+    },
+    "Tornado Step": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX730",
+        "name": "Tornado Step",
+        "size": 673368,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "007B"
+    },
+    "Toy Soldier NM": {
+        "aiparam": "",
+        "animation": "M_EX790.mset",
+        "model": "M_EX790_CHRISTMAS_NM",
+        "name": "Toy Soldier NM",
+        "size": 614828,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "06F1"
+    },
+    "Trick Ghost": {
+        "aiparam": "",
+        "animation": "",
+        "model": "M_EX500",
+        "name": "Trick Ghost",
+        "size": 1020248,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0002"
+    },
+    "Twilight Thorn": {
+        "aiparam": "1",
+        "animation": "",
+        "model": "B_EX100",
+        "name": "Twilight Thorn",
+        "size": 3691716,
+        "spawns": [
+            "0361"
+        ],
+        "type": "boss",
+        "ucm": "0133"
+    },
+    "Vexen": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_CM040_BTL",
+        "name": "Vexen",
+        "size": 4708244,
+        "spawns": [
+            "0934"
+        ],
+        "type": "boss",
+        "ucm": "0933"
+    },
+    "Vivi": {
+        "aiparam": "",
+        "animation": "",
+        "model": "N_EX610_BTL",
+        "name": "Vivi",
+        "size": 882418,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "086C"
+    },
+    "Volcano Lord": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_AL100_FIRE",
+        "name": "Volcano Lord",
+        "size": 1720178,
+        "spawns": [
+            "0689",
+            "07FB"
+        ],
+        "type": "boss",
+        "ucm": "040B"
+    },
+    "Wight Knight NM": {
+        "aiparam": "",
+        "animation": "M_EX200.mset",
+        "model": "M_EX200_NM",
+        "name": "Wight Knight NM",
+        "size": 554888,
+        "spawns": [],
+        "type": "enemy",
+        "ucm": "0077"
+    },
+    "Xaldin": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX130",
+        "name": "Xaldin",
+        "size": 2741336,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "03E5"
+    },
+    "Xemnas": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX170",
+        "name": "Xemnas",
+        "size": 2607408,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0646"
+    },
+    "Xigbar": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX140",
+        "name": "Xigbar",
+        "size": 2061008,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "0622"
+    },
+    "Yuffie": {
+        "aiparam": "1",
+        "animation": "N_HB580_BTL.mset",
+        "model": "N_HB580_BTL2",
+        "name": "Yuffie",
+        "size": 755432,
+        "spawns": [],
+        "type": "boss",
+        "ucm": "08FB"
+    },
+    "Zexion": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX370",
+        "name": "Zexion",
+        "size": 2415886,
+        "spawns": [
+            "097D",
+            "097E"
+        ],
+        "type": "boss",
+        "ucm": "097B"
+    },
+    "Zexions Book": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX380",
+        "name": "Zexions Book",
+        "size": 102818,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "097D"
+    },
+    "Zexions Something": {
+        "aiparam": "",
+        "animation": "",
+        "model": "B_EX410",
+        "name": "Zexions Something",
+        "size": 374008,
+        "spawns": [],
+        "type": "extra",
+        "ucm": "097E"
+    }
+}
