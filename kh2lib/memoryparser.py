@@ -12,7 +12,6 @@ class memoryparser:
         return self.memdump
     def search_substr(self, bytestr):
         self._check_for_dump()
-        print("uh")
         addresses = []
         subdata = bytearray(self.memdump)
         index = 0
@@ -24,22 +23,27 @@ class memoryparser:
             index = index + a + len(bytestr)
             subdata = subdata[a+len(bytestr):]
         return ["0x"+str(hex(ad))[2:].zfill(8) for ad in addresses]
-    def locate_file(self, fn, starting_substr_len=10):
+    def locate_file(self, fn, starting_substr_len=None):
         self._check_for_dump()
         finddata = open(fn, "rb").read()
+        if not starting_substr_len:
+            starting_substr_len = len(finddata) // 2
         searchstr = bytearray(finddata[:starting_substr_len])
         oldmatches = None
+        # I need to only except the valueerror here for missing the substr
         for b in finddata[starting_substr_len:]:
             searchstr.append(b)
-            matches = self.search_substr(searchstr)
-            if len(matches) == 0:
+            try:
+                matches = self.search_substr(searchstr)
+                if len(matches) == 1:
+                    return matches[0]
+                oldmatches = matches
+            except:
                 if oldmatches:
                     print("Multiple potential matches")
                     return oldmatches
                 raise Exception("Could not find match")
-            if len(matches) == 1:
-                return matches[0]
-            oldmatches = matches
+        raise Exception("You should never see this")
     def generate_codes(self, starting_offset, base_file, mod_file):
         self._check_for_dump()
         base = bytearray(open(base_file, "rb").read())
