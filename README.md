@@ -2,6 +2,8 @@
 
 This is the repository for a python library to assist with creating mods/codes to Kingdom Hearts 2 Final Mix +
 
+Please create a GitHub issue if you have problems, or reach out to me on Discord (I'm in most of the kh2 modding related discords). Pull requests are also welcome!
+
 The library can do the following (and more)
 * Extract/Patch/Repack KH2 iso's, (using KH2FM_Toolkit.exe)
 * Extract/Repack BAR files using openKH
@@ -15,7 +17,7 @@ To install run the following
 
 The library is most useful when used in conjunction with some other pieces of software, and detects their presence using the following environment variables
 
-USE_KH2_EDITORENGINE - Is the path to the openkh executables
+USE_KH2_EDITORENGINE - Is the path to the directory containing the openkh executables
 
 example - `C:\Users\12sam\Desktop\openkh`
 
@@ -35,3 +37,7 @@ example - `C:\Users\12sam\Desktop\Kingdom Hearts 2 Modding\ISO`
 ## Usage
 
 See the examples folder for examples on how to perform various tasks
+
+`Using KH2Lib` - contains examples that demonstrate using various pieces of kh2lib functionality
+`Other` - Other useful scripts I made while researching different things, not exactly related to kh2lib functionality
+`WIP` - Work in Progress examples that may not work, or may be prototyping future features to kh2lib
