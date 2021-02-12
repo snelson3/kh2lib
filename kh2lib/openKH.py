@@ -6,7 +6,7 @@ class openKH:
     def _check_binary(self, binary):
         if not os.path.isfile(os.path.join(self.workdir, binary)):
             raise Exception("{} not found".format(binary))
-    def _run_binary(self, binary, args=[], inp='', debug=False):
+    def _run_binary(self, binary, args=[], inp='', debug=True):
         self._check_binary(binary)
         if debug:
             print(args)
