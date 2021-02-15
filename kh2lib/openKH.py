@@ -6,7 +6,7 @@ class openKH:
     def _check_binary(self, binary):
         if not os.path.isfile(os.path.join(self.workdir, binary)):
             raise Exception("{} not found".format(binary))
-    def _run_binary(self, binary, args=[], inp='', debug=True):
+    def _run_binary(self, binary, args=[], inp='', debug=False):
         self._check_binary(binary)
         if debug:
             print(args)
@@ -23,3 +23,7 @@ class openKH:
         self._run_binary('OpenKh.Command.Bar.exe', args=['unpack', '-o', outdir, bar])
     def bar_build(self, projectfn, outputfn):
         self._run_binary('OpenKh.Command.Bar.exe', args=['pack', '-o', outputfn, projectfn])
+    def spawnscript_extract(self, pth, outfn):
+        self._run_binary('OpenKh.Command.SpawnScript.exe', args=['decompile', '-o', outfn, pth])
+    def spawnscript_compile(self, pth, outfn):
+        self._run_binary('OpenKh.Command.SpawnScript.exe', args=['compile', '-o', outfn, pth])

@@ -3,7 +3,7 @@ from .pnachmaker import pnachmaker
 from .memoryparser import memoryparser
 from .utils import getarg
 from .openKH import openKH
-import sys, subprocess, os, shutil, json
+import sys, subprocess, os, shutil, json, random
 
 class kh2lib:
     def __init__(self, gitpath=None, patchEngine=kh2fmtoolkit, cheatsfn=None):
@@ -16,12 +16,14 @@ class kh2lib:
         self.worlds = json.load(open(os.path.join(os.path.dirname(__file__), "data", "worlds.json")))
         self.objects = json.load(open(os.path.join(os.path.dirname(__file__), "data", "objlist.json")))
 
-    def reset_git(self, files_to_remove=[], branch='master'):
-        if not self.gitpath:
+    def reset_git(self, files_to_remove=[], branch='master', gitpath=None):
+        if not self.gitpath and not gitpath:
             raise Exception("No 'gitpath' assigned")
-        if not os.path.isdir(os.path.join(self.gitpath, ".git")):
-            raise Exception("'gitpath' is not a valid directory")
-        output = subprocess.check_output(['git', 'reset', '--hard', branch], cwd=self.gitpath)
+        if not gitpath:
+            gitpath = self.gitpath
+        if not os.path.isdir(os.path.join(gitpath, ".git")):
+            raise Exception("'gitpath' is not a valid git repository")
+        output = subprocess.check_output(['git', 'reset', '--hard', branch], cwd=gitpath)
         print(output)
         for fn in files_to_remove:
             if os.path.exists(fn):
@@ -95,9 +97,6 @@ class kh2lib:
         elif len(matches) == 1:
             return matches[0]
         return matches
-                
-        
-
     
     def get_world(self, wid=None, abv=None, name=None):
         if len(list(filter(lambda k: k != None, list(set([wid, abv, name]))))) != 1:
@@ -120,3 +119,21 @@ class kh2lib:
                 if match == world["name"].lower().replace(' ', ''):
                     return world
             raise Exception("world {} not found".format(name))
+
+    def randomize_files(self, paths_to_randomize):
+        paths = list(paths_to_randomize)
+        print("Randomizing {} files (if num is odd 1 file will be definitely unrandomized)".format(len(paths)))
+        random.shuffle(paths)
+        for i in range(0, len(paths), 2):
+            if i+1 == len(paths):
+                self.swap_files(paths[i], paths[0])
+            else:
+                self.swap_files(paths[i], paths[i+1])
+        print("Randomization complete")
+
+    def swap_files(self, file1, file2):
+        tempfn = os.path.join(os.path.dirname(file1), "tempfilerename")
+        import sys; sys.stdout.flush()
+        os.rename(file1, tempfn)
+        os.rename(file2, file1)
+        os.rename(tempfn, file2)

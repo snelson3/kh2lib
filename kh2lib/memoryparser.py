@@ -1,5 +1,5 @@
 from .utils import toHex
-import os
+import os, time
 
 class memoryparser:
     def __init__(self):
@@ -23,7 +23,7 @@ class memoryparser:
             index = index + a + len(bytestr)
             subdata = subdata[a+len(bytestr):]
         return ["0x"+str(hex(ad))[2:].zfill(8) for ad in addresses]
-    def locate_file(self, fn, starting_substr_len=None):
+    def locate_file(self, fn, starting_substr_len=None, timeout=5, single_result=False):
         self._check_for_dump()
         finddata = open(fn, "rb").read()
         if not starting_substr_len:
@@ -31,16 +31,23 @@ class memoryparser:
         searchstr = bytearray(finddata[:starting_substr_len])
         oldmatches = None
         # I need to only except the valueerror here for missing the substr
+        start_time = time.time()
         for b in finddata[starting_substr_len:]:
             searchstr.append(b)
             try:
+                if time.time() - start_time > timeout:
+                    raise Exception("Timed out looking for match")
                 matches = self.search_substr(searchstr)
+                if matches == []:
+                    raise Exception("Could not find match")
                 if len(matches) == 1:
                     return matches[0]
                 oldmatches = matches
             except:
                 if oldmatches:
                     print("Multiple potential matches")
+                    if single_result:
+                        return oldmatches[0]
                     return oldmatches
                 raise Exception("Could not find match")
         raise Exception("You should never see this")
