@@ -68,3 +68,26 @@ class memoryparser:
             if base_word != mod_word:
                 codes.append("{} {}".format(hex(int(i)+int(starting_offset))[2:].zfill(8), ''.join([hex(n)[2:].zfill(2) for n in mod_word][::-1])))
         return codes
+    def set_file_bytes(self, fn, proportions=[1], byte_to_set=0x0):
+        f = bytearray(open(fn, "rb").read())
+
+        replace = True
+        assert sum(proportions) == 1
+        prop_lengths = [int(len(f) * i) for i in proportions]
+        prop_len = sum(prop_lengths)
+        f_len = len(f)
+        if not prop_len == f_len:
+            if prop_len > f_len:
+                prop_lengths[-1] -= prop_len-f_len
+            else:
+                prop_lengths[-1] += f_len-prop_len
+        bi = 0
+        for prop in prop_lengths:
+            for i in range(prop):
+                if replace:
+                    f[bi] = byte_to_set
+                else:
+                    pass
+                bi += 1
+            replace = not replace
+        open(fn, "wb").write(f)
