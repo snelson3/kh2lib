@@ -91,7 +91,7 @@ class memoryparser:
                 bi += 1
             replace = not replace
         open(fn, "wb").write(f)
-    def readable_data(self, fn, record_spec, header_length=0x0, footer_length=0x0,hide_indices=[],swapendian=False, showinhex=True, aspandas=False, displayHeader=False,displayFooter=False, recordstoshow=None):
+    def readable_data(self, fn, record_spec, header_length=0x0, footer_length=0x0,hide_indices=[],swapendian=False, showinhex=True, aspandas=False, displayHeader=False,displayFooter=False, recordstoshow=None, showUniqueIndex=False, filter_to_nonzero_indices=[]):
         def _readable(ba):
             return " ".join([hex(i)[2:].zfill(2).upper() for i in ba])
         if aspandas:
@@ -143,7 +143,20 @@ class memoryparser:
                 r[v] = var
             recs.append(r)
 
-        if not aspandas:
+        if filter_to_nonzero_indices:
+            for i in filter_to_nonzero_indices:
+                if not showinhex:
+                    recs = list(filter(lambda r: r[i] != 0, recs))
+                else:
+                    recs = list(filter(lambda r: r[i] != '0'.zfill(len(r[i])), recs))
+
+        if showUniqueIndex:
+            s = []
+            for r in recs:
+                s.append(r[showUniqueIndex])
+            s = list(set(s))
+            print(sorted(s))
+        elif not aspandas:
             for rec in recs:
                 if not showinhex:
                     print(rec)
@@ -191,10 +204,7 @@ class memoryparser:
         for rec in recs:
             for i in rec:
                 recs_new.append(i)
-                
 
         new_file = header + bytearray(recs_new) + footer
 
         open(fn, "wb").write(new_file)        
-
-

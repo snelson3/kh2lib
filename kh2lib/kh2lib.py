@@ -2,6 +2,7 @@ from .kh2fmtoolkit import kh2fmtoolkit
 from .pnachmaker import pnachmaker
 from .memoryparser import memoryparser
 from .utils import getarg
+from .ddd import DDD
 from .openKH import openKH
 import sys, subprocess, os, shutil, json, random
 
@@ -15,6 +16,8 @@ class kh2lib:
             self.patchengine = patchEngine(workdir=getarg("patchenginedir"))
         elif game == "kh1":
             self.patchengine = patchEngine(getarg("patchenginedir-kh1"), "KH1FM_Toolkit.exe")
+        elif game == "ddd":
+            self.ddd = DDD()
         self.parsingengine = memoryparser()
         self.editengine = openKH(workdir=getarg("editorengine"))
         self.worlds = json.load(open(os.path.join(os.path.dirname(__file__), "data", "worlds.json")))
