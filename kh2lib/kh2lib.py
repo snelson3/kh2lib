@@ -6,38 +6,71 @@ from .ddd import DDD
 from .openKH import openKH
 import sys, subprocess, os, shutil, json, random
 
+CRITITEMS = [  "Reaction Boost","Air Combo Boost","Auto Healing","Magic Lock-On","Jackpot","Jackpot","No Experience"]
 class kh2lib:
-    def __init__(self, gitpath=None, patchEngine=kh2fmtoolkit, cheatsfn=None, game="kh2"):
+    def __init__(self, gitpath=None, gamedir=None, patchEngine=kh2fmtoolkit, cheatsfn=None, game="kh2"):
+        if gitpath:
+            gamedir = gitpath
         self.game = game
         self.__version__ = 0.01
-        self.gitpath = gitpath or getarg("gitpath") 
+        self.gamedir = gamedir or self._getGitpath(game) 
         self.cheatengine = pnachmaker(os.path.join(os.path.dirname(getarg("outpath")),cheatsfn) if cheatsfn else getarg("outpath"))
         if game == "kh2":
             self.patchengine = patchEngine(workdir=getarg("patchenginedir"))
         elif game == "kh1":
             self.patchengine = patchEngine(getarg("patchenginedir-kh1"), "KH1FM_Toolkit.exe")
         elif game == "ddd":
-            self.ddd = DDD()
+            self.ddd = DDD(mom=self)
         self.parsingengine = memoryparser()
         self.editengine = openKH(workdir=getarg("editorengine"))
+        self.openkh = self.editengine
         self.worlds = json.load(open(os.path.join(os.path.dirname(__file__), "data", "worlds.json")))
         self.objects = json.load(open(os.path.join(os.path.dirname(__file__), "data", "objlist.json")))
+        self.characters = self.getCharacters()
+        self.inventory = self.getInventory()
 
-    def reset_git(self, files_to_remove=[], branch='master', gitpath=None):
-        if not self.gitpath and not gitpath:
-            raise Exception("No 'gitpath' assigned")
-        if not gitpath:
-            gitpath = self.gitpath
-        if not os.path.isdir(os.path.join(gitpath, ".git")):
-            raise Exception("'gitpath' is not a valid git repository")
-        output = subprocess.check_output(['git', 'reset', '--hard', branch], cwd=gitpath)
+    def getCharacters(self):
+        characters = {}
+        for line in open(os.path.join(os.path.join(os.path.dirname(__file__), "data", "characters"))):
+            parts = [i.strip() for i in line.split("|")]
+            characters[int(parts[1])] = parts[2]
+        return characters
+
+    def getInventory(self):
+        inventory = {}
+        for line in open(os.path.join(os.path.join(os.path.dirname(__file__), "data", "inventory"))):
+            parts = [i.strip() for i in line.split("|")]
+            inventory[int(parts[1])] = parts[2]
+        return inventory
+
+    def _getGitpath(self, game):
+        if game=="kh2":
+            return getarg("gitpath")
+        if game=="bbs":
+            return getarg("bbs_gitpath")
+        if game=="ddd":
+            return getarg("ddd_gitpath")
+        if game=="kh1":
+            return getarg("kh1_gitpath")
+        raise Exception("Unknown game")
+
+    def reset_git(self, files_to_remove=[], branch='master', gitpath=None, gamedir=None):
+        if gitpath:
+            gamedir = gitpath
+        if not self.gamedir and not gamedir:
+            raise Exception("No 'gamedir' assigned")
+        if not gamedir:
+            gamedir = self.gamedir
+        if not os.path.isdir(os.path.join(gamedir, ".git")):
+            raise Exception("'gamedir' is not a valid git repository")
+        output = subprocess.check_output(['git', 'reset', '--hard', branch], cwd=gamedir)
         for fn in files_to_remove:
             if os.path.exists(fn):
                 os.remove(fn)
         print("Git repository has been reset")
 
     def get_git_modifications(self):
-        output = subprocess.check_output(['git', 'status', '--porcelain'], cwd=self.gitpath)
+        output = subprocess.check_output(['git', 'status', '--porcelain'], cwd=self.gamedir)
         # This will ignore any paths with a space in their name, but I don't think there are any in the kh2 iso
         files = []
         for f in output.decode('utf-8').split("\n"):
@@ -79,15 +112,23 @@ class kh2lib:
                 os.remove(os.path.join(self.patchengine.workdir, f))
         return outfn
 
-    def patch_game(self, patches=[], fromgit=False, fn='KH2-PATCHED.iso'):
+    def patch_game(self, patches=[], fromgit=True, fn='KH2-PATCHED.iso', useModManager=True):
         # Send the list of patches (or generate from git) to the patchengine
         # Paths must be relative to the patchengine binary
+        if useModManager:
+            if self.game in ["kh2"]:
+                print("'patched', make sure to launch with mod manager")
+                return
+        if self.game == "ddd":
+            self.ddd.patch_game(self.get_git_modifications())
+            return
         gitprefix=None
         if self.game == "kh1":
             fn = 'KH1-PATCHED.iso'
             gitprefix=''
         if fromgit:
             patches += [self.create_patch(fromgit=True, gitprefix=gitprefix)]
+            
         self.patchengine.patch_game(patches, fn, game=self.game)
 
     def get_object(self, ucm=None, mdlx=None, name=None):
@@ -184,3 +225,99 @@ class kh2lib:
         os.rename(file1, tempfn)
         os.rename(file2, file1)
         os.rename(tempfn, file2)
+
+    def spawn_in(self, world, room, localset, fadetype="16386", jumptype="2", entrance="0", setflags=[]):
+        tempdir = os.path.join(os.getcwd(), "tempard")
+        if os.path.exists(tempdir):
+            shutil.rmtree(tempdir)
+        os.mkdir(tempdir)
+        ardfn = os.path.join(self.gamedir, "KH2", "ard", "tt01.ard")
+        self.editengine.bar_extract(ardfn, tempdir)
+        sc = open(os.path.join(os.path.dirname(__file__), "data", "tt01.spawnscript")).read()
+        flags = "\n\t"
+        for flag in setflags:
+            flags += "SetProgressFlag {}\n\t".format(flag)
+        sc_m = sc.format(world.upper(), room, localset, entrance, fadetype, jumptype, flags)
+        scfn = os.path.join(tempdir, "spawnscript")
+        open(scfn, "w").write(sc_m)
+        self.editengine.spawnscript_compile(scfn, os.path.join(tempdir, "evt.script"))
+        self.editengine.bar_build(os.path.join(tempdir, "tt01.ard.json"), ardfn)
+
+    def give_to_sora(self, hp=20, mp=100, ap=50, accessoryslt=0, armorslt=0, itemslt=0, items=[]):
+        options = {
+            "hp": hp,
+            "mp": mp,
+            "ap": ap,
+            "accessoryslots": accessoryslt,
+            "armorslots": armorslt,
+            "itemslots": itemslt,
+            "items": items
+        }
+        self.give_to({0: options})
+
+    def give_to(self, characters):
+        def _lookupCharId(name):
+            if type(name) == type(15):
+                return name
+            for k in self.characters:
+                if self.characters[k] == name:
+                    return k
+        def _lookupInvNum(item):
+            if type(item) == list:
+                return item[::-1]
+            itembytes = [0,0]
+            if item.startswith("EQ"):
+                itembytes[0] = 8
+                item = item[2:]
+            idt = None
+            for k in self.inventory:
+                if self.inventory[k] == item:
+                    idt = k
+            if not idt:
+                raise Exception("Item not found: {}".format(item))
+            # Due to either bug in understanding of plrp or in kh2 itself, giving starting inventory with values > 255 is bugged
+            idt = idt - (idt // 255)
+            itembytes[0] = itembytes[0] + idt // 255 # sig byte
+            itembytes[1] = idt % 255 # insig byte
+            return itembytes[::-1]
+            
+        # can't give multiple people things right now
+        plrpheader = [1,0,0,0,64,0,0,0]
+        sc =  sc = open(os.path.join(os.path.dirname(__file__), "data", "character_records.yaml"))
+        import yaml
+        recs = yaml.load(sc)
+        for character_index in characters:
+            for option in characters[character_index]:
+                recs[character_index][option] = characters[character_index][option]
+        cr = bytearray(plrpheader)
+        for c in recs:
+            unkid = hex(c["unkid"])[2:].zfill(4)
+            cr.append(int(unkid[:2], 16))
+            cr.append(int(unkid[2:], 16))
+            character = hex(_lookupCharId(c["character"]))[2:].zfill(2)
+            cr.append(int(character, 16))
+            cr.append( c["hp"])
+            cr.append( c["mp"])
+            cr.append( c["ap"])
+            cr.append( c["armorslots"])
+            cr.append( c["armorslots"])
+            cr.append( c["accessoryslots"])
+            cr.append( c["accessoryslots"])
+            cr.append( c["itemslots"])
+            cr.append( c["itemslots"])
+            if len(c["items"]) > 58:
+                raise Exception("Too many items")
+            items = c["items"] + [[0,0] for _ in range(58-len(c["items"]))]
+            for item in items:
+                for subbyte in _lookupInvNum(item):
+                    cr.append( subbyte )
+        tempdir = os.path.join(os.getcwd(), "tempbattle")
+        if os.path.exists(tempdir):
+            shutil.rmtree(tempdir)
+        os.mkdir(tempdir)        
+        battlefn = os.path.join(self.gamedir, "KH2", "00battle.bin")
+        self.editengine.bar_extract(battlefn, tempdir)
+        plrppthnew = os.path.join(tempdir, "plrp.list")
+        open(plrppthnew, "wb").write(cr)
+        self.openkh.bar_build(os.path.join(tempdir, "00battle.bin.json"), battlefn)
+

@@ -1,10 +1,11 @@
-import os
+import os, subprocess, shutil
+from .utils import getarg
 
 BOARD_DELIMITER = bytearray(b'\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
 
 class DDD:
-    def __init__(self):
-        pass
+    def __init__(self, mom):
+        self.mom = mom
 
     def extract_lboard(self, fn, outdir):
         print("EXTRACTING")
@@ -49,3 +50,49 @@ class DDD:
             data += BOARD_DELIMITER
         data = data[:-len(BOARD_DELIMITER)]
         open(outfn, "wb").write(data)
+
+    def patch_game(self, mods):
+        #reser git needs to restore the modified rbins
+        modded_rbins = []
+        offsets = {}
+        for mod in mods:
+            fn = os.path.join(self.mom.gamedir, mod)
+            rbin = mod.split("/")[0]
+            rbinfn = os.path.join(self.mom.gamedir, rbin+".rbin")
+            tempfn = fn+".temp"
+            shutil.copy(fn, tempfn)
+            subprocess.check_call(["git", "restore", mod], cwd=self.mom.gamedir)
+            try:
+                self.mom.parsingengine.load_memdump(rbinfn)
+                offsets[fn] = self.mom.parsingengine.locate_file(fn)
+            except:
+                print("Skipping {}".format(mod))
+        for mod in mods:
+            print(mod)
+            fn = os.path.join(self.mom.gamedir, mod)
+            rbin = mod.split("/")[0]
+            rbinfn = os.path.join(self.mom.gamedir, rbin+".rbin")
+            tempfn = fn+".temp"
+            try:
+                location = offsets[fn]
+                if type(location) == list:
+                    location = location[0]
+                offset = int(location, 16)
+            except:
+                print("couldn't replace file")
+                continue
+
+            ba = bytearray(open(rbinfn, "rb").read())
+            fileb = bytearray(open(tempfn, "rb").read())
+
+            ba_m = ba[0:offset]+fileb+ba[offset+len(fileb):]
+
+            open(rbinfn, "wb").write(ba_m)
+
+            modded_rbins.append(rbinfn)
+            shutil.copy(tempfn, fn)
+            os.remove(tempfn)
+        for rbin in set(modded_rbins):
+            print(rbin, os.path.join(getarg("ddd_mod_path"), rbin))
+            shutil.copy(rbin, os.path.join(getarg("ddd_mod_path"), os.path.basename(rbin)))
+        

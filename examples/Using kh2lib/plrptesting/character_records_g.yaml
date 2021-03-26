@@ -1,0 +1,1368 @@
+- accessoryslots: 0
+  ap: 2
+  armorslots: 0
+  character: Sora
+  hp: 20
+  items: []
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Donald
+  hp: 18
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 128
+    - 167
+  - - 128
+    - 168
+  itemslots: 2
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Goofy
+  hp: 28
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 129
+    - 173
+  - - 129
+    - 155
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Mickey
+  hp: 60
+  items:
+  - - 128
+    - 163
+  - - 128
+    - 138
+  itemslots: 0
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Auron
+  hp: 45
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 204
+  - - 129
+    - 172
+  - - 128
+    - 176
+  - - 129
+    - 161
+  - - 129
+    - 156
+  - - 129
+    - 157
+  - - 129
+    - 160
+  itemslots: 0
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Mulan
+  hp: 40
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 129
+    - 155
+  - - 129
+    - 149
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Aladdin
+  hp: 55
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 128
+    - 3
+  - - 128
+    - 203
+  - - 129
+    - 170
+  - - 129
+    - 171
+  - - 1
+    - 161
+  - - 129
+    - 155
+  - - 129
+    - 150
+  - - 129
+    - 157
+  - - 129
+    - 160
+  - - 1
+    - 162
+  itemslots: 0
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Jack Sparrow
+  hp: 50
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 210
+  - - 129
+    - 190
+  - - 129
+    - 191
+  - - 129
+    - 192
+  - - 1
+    - 161
+  - - 129
+    - 155
+  - - 129
+    - 149
+  - - 129
+    - 149
+  - - 129
+    - 149
+  - - 129
+    - 151
+  - - 1
+    - 158
+  - - 1
+    - 164
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Beast
+  hp: 40
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 205
+  - - 128
+    - 177
+  - - 129
+    - 174
+  - - 129
+    - 161
+  - - 129
+    - 155
+  - - 129
+    - 159
+  - - 129
+    - 158
+  - - 1
+    - 163
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Jack Skellington
+  hp: 55
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 128
+    - 3
+  - - 128
+    - 206
+  - - 129
+    - 175
+  - - 129
+    - 176
+  - - 129
+    - 177
+  - - 1
+    - 161
+  - - 129
+    - 165
+  - - 129
+    - 164
+  - - 129
+    - 151
+  - - 129
+    - 152
+  - - 1
+    - 153
+  - - 1
+    - 154
+  itemslots: 2
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Simba
+  hp: 60
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 128
+    - 209
+  - - 129
+    - 183
+  - - 129
+    - 184
+  - - 128
+    - 190
+  - - 129
+    - 161
+  - - 129
+    - 156
+  - - 129
+    - 158
+  - - 1
+    - 163
+  - - 1
+    - 164
+  itemslots: 2
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Tron
+  hp: 65
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 129
+    - 155
+  - - 129
+    - 150
+  - - 1
+    - 162
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Riku
+  hp: 100
+  items:
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 1
+  - - 128
+    - 3
+  - - 128
+    - 3
+  - - 128
+    - 208
+  - - 129
+    - 182
+  - - 129
+    - 180
+  - - 128
+    - 187
+  - - 1
+    - 161
+  - - 129
+    - 155
+  - - 129
+    - 158
+  - - 129
+    - 159
+  - - 129
+    - 160
+  - - 129
+    - 166
+  - - 1
+    - 163
+  itemslots: 1
+  mp: 100
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 129
+  hp: 0
+  items:
+  - - 128
+    - 94
+  - - 128
+    - 216
+  - - 128
+    - 217
+  - - 128
+    - 218
+  - - 128
+    - 219
+  - - 128
+    - 246
+  - - 128
+    - 247
+  - - 129
+    - 17
+  - - 128
+    - 223
+  - - 128
+    - 162
+  - - 128
+    - 163
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 130
+  hp: 0
+  items:
+  - - 128
+    - 98
+  - - 128
+    - 220
+  - - 128
+    - 221
+  - - 128
+    - 224
+  - - 128
+    - 225
+  - - 129
+    - 17
+  - - 129
+    - 166
+  - - 129
+    - 166
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 131
+  hp: 0
+  items:
+  - - 130
+    - 52
+  - - 130
+    - 57
+  - - 130
+    - 58
+  - - 130
+    - 59
+  - - 130
+    - 60
+  - - 130
+    - 61
+  - - 130
+    - 62
+  - - 130
+    - 63
+  - - 130
+    - 75
+  - - 130
+    - 76
+  - - 130
+    - 77
+  - - 128
+    - 82
+  - - 129
+    - 6
+  - - 129
+    - 8
+  - - 129
+    - 13
+  - - 129
+    - 156
+  - - 129
+    - 149
+  - - 129
+    - 151
+  - - 129
+    - 157
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 132
+  hp: 0
+  items:
+  - - 128
+    - 102
+  - - 129
+    - 1
+  - - 129
+    - 2
+  - - 129
+    - 5
+  - - 128
+    - 223
+  - - 129
+    - 3
+  - - 129
+    - 165
+  - - 128
+    - 163
+  - - 128
+    - 163
+  - - 129
+    - 149
+  - - 129
+    - 149
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 133
+  hp: 0
+  items:
+  - - 128
+    - 106
+  - - 130
+    - 7
+  - - 128
+    - 221
+  - - 128
+    - 223
+  - - 130
+    - 15
+  - - 130
+    - 16
+  - - 130
+    - 17
+  - - 130
+    - 18
+  - - 129
+    - 157
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 134
+  hp: 0
+  items:
+  - - 128
+    - 248
+  - - 128
+    - 249
+  - - 129
+    - 148
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 135
+  hp: 0
+  items:
+  - - 128
+    - 162
+  - - 128
+    - 162
+  - - 128
+    - 163
+  - - 128
+    - 163
+  - - 130
+    - 8
+  - - 130
+    - 9
+  - - 130
+    - 10
+  - - 130
+    - 11
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 138
+  hp: 0
+  items:
+  - - 128
+    - 138
+  - - 129
+    - 155
+  - - 129
+    - 158
+  - - 129
+    - 159
+  - - 129
+    - 160
+  - - 130
+    - 30
+  - - 130
+    - 30
+  itemslots: 0
+  mp: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - - 129
+    - 6
+  - - 129
+    - 7
+  - - 129
+    - 8
+  - - 129
+    - 9
+  - - 129
+    - 10
+  - - 129
+    - 11
+  - - 129
+    - 12
+  - - 129
+    - 13
+  - - 129
+    - 14
+  - - 129
+    - 15
+  - - 129
+    - 16
+  - - 129
+    - 17
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - - 2
+    - 27
+  - - 2
+    - 28
+  - - 2
+    - 30
+  - - 130
+    - 47
+  - - 130
+    - 48
+  - - 130
+    - 49
+  - - 130
+    - 50
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - - 128
+    - 100
+  - - 128
+    - 104
+  - - 128
+    - 108
+  - - 128
+    - 96
+  - - 129
+    - 129
+  - - 129
+    - 130
+  - - 130
+    - 56
+  - - 129
+    - 131
+  - - 129
+    - 132
+  - - 129
+    - 133
+  - - 130
+    - 54
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - - 128
+    - 7
+  - - 128
+    - 4
+  - - 128
+    - 6
+  - - 128
+    - 82
+  - - 128
+    - 137
+  - - 128
+    - 138
+  - - 128
+    - 158
+  - - 128
+    - 198
+  - - 129
+    - 137
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Donald
+  hp: 18
+  items:
+  - - 128
+    - 199
+  - - 128
+    - 200
+  - - 128
+    - 165
+  - - 128
+    - 166
+  - - 1
+    - 161
+  - - 1
+    - 165
+  - - 1
+    - 152
+  - - 1
+    - 153
+  - - 1
+    - 154
+  - - 1
+    - 149
+  - - 1
+    - 150
+  - - 1
+    - 151
+  - - 1
+    - 156
+  - - 1
+    - 163
+  - - 1
+    - 164
+  itemslots: 2
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Goofy
+  hp: 28
+  items:
+  - - 128
+    - 201
+  - - 128
+    - 202
+  - - 129
+    - 167
+  - - 129
+    - 169
+  - - 1
+    - 161
+  - - 1
+    - 158
+  - - 1
+    - 159
+  - - 1
+    - 160
+  - - 129
+    - 162
+  - - 1
+    - 149
+  - - 1
+    - 150
+  - - 1
+    - 151
+  - - 1
+    - 156
+  - - 1
+    - 163
+  - - 1
+    - 164
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Auron
+  hp: 45
+  items:
+  - - 129
+    - 162
+  - - 1
+    - 161
+  itemslots: 0
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Mulan
+  hp: 40
+  items:
+  - - 129
+    - 162
+  - - 128
+    - 207
+  - - 129
+    - 178
+  - - 129
+    - 179
+  - - 129
+    - 161
+  - - 1
+    - 152
+  - - 1
+    - 163
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Aladdin
+  hp: 55
+  items:
+  - - 129
+    - 162
+  itemslots: 0
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Jack Sparrow
+  hp: 50
+  items:
+  - - 129
+    - 162
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Beast
+  hp: 40
+  items:
+  - - 129
+    - 162
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Jack Skellington
+  hp: 55
+  items:
+  - - 129
+    - 162
+  itemslots: 2
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Simba
+  hp: 60
+  items:
+  - - 129
+    - 162
+  itemslots: 2
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Tron
+  hp: 65
+  items:
+  - - 129
+    - 162
+  - - 128
+    - 211
+  - - 129
+    - 188
+  - - 128
+    - 215
+  - - 129
+    - 161
+  - - 1
+    - 154
+  - - 1
+    - 157
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Riku
+  hp: 100
+  items:
+  - - 129
+    - 162
+  itemslots: 1
+  mp: 100
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 18
+  - - 129
+    - 233
+  - - 129
+    - 226
+  - - 129
+    - 227
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 130
+    - 39
+  - - 130
+    - 46
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 21
+  - - 128
+    - 1
+  - - 128
+    - 42
+  - - 128
+    - 148
+  - - 128
+    - 139
+  - - 129
+    - 48
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 22
+  - - 128
+    - 2
+  - - 128
+    - 43
+  - - 128
+    - 149
+  - - 128
+    - 140
+  - - 129
+    - 48
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 23
+  - - 128
+    - 3
+  - - 129
+    - 224
+  - - 128
+    - 150
+  - - 128
+    - 141
+  - - 129
+    - 48
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 24
+  - - 128
+    - 4
+  - - 129
+    - 225
+  - - 128
+    - 151
+  - - 128
+    - 142
+  - - 128
+    - 157
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 87
+  - - 128
+    - 5
+  - - 129
+    - 228
+  - - 128
+    - 152
+  - - 128
+    - 143
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 88
+  - - 128
+    - 6
+  - - 129
+    - 229
+  - - 128
+    - 153
+  - - 128
+    - 144
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 7
+  - - 129
+    - 230
+  - - 128
+    - 154
+  - - 128
+    - 145
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 231
+  - - 128
+    - 155
+  - - 128
+    - 146
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 131
+  - - 129
+    - 232
+  - - 128
+    - 156
+  - - 128
+    - 147
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 246
+  - - 130
+    - 38
+  - - 130
+    - 45
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 19
+  - - 129
+    - 234
+  - - 129
+    - 247
+  - - 129
+    - 248
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 25
+  - - 129
+    - 19
+  - - 129
+    - 235
+  - - 130
+    - 88
+  - - 130
+    - 89
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 65
+  - - 129
+    - 245
+  - - 130
+    - 37
+  - - 130
+    - 44
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 160
+  - - 129
+    - 19
+  - - 129
+    - 237
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 127
+  - - 129
+    - 19
+  - - 129
+    - 238
+  - - 130
+    - 31
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 129
+    - 19
+  - - 129
+    - 239
+  - - 130
+    - 32
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 26
+  - - 129
+    - 240
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 27
+  - - 129
+    - 20
+  - - 129
+    - 241
+  - - 130
+    - 33
+  - - 130
+    - 40
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 130
+    - 51
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 31
+  - - 129
+    - 21
+  - - 129
+    - 242
+  - - 130
+    - 34
+  - - 130
+    - 41
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 29
+  - - 129
+    - 22
+  - - 129
+    - 243
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 30
+  - - 129
+    - 23
+  - - 129
+    - 244
+  - - 130
+    - 35
+  - - 130
+    - 42
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 63
+  - - 129
+    - 128
+  - - 130
+    - 36
+  - - 130
+    - 43
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - - 128
+    - 159
+  - - 129
+    - 19
+  - - 129
+    - 236
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 135
+  hp: 0
+  items:
+  - - 130
+    - 13
+  - - 130
+    - 14
+  itemslots: 0
+  mp: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Sora
+  hp: 20
+  items:
+  - - 1
+    - 137
+  - - 1
+    - 136
+  - - 1
+    - 165
+  - - 1
+    - 148
+  - - 1
+    - 151
+  - - 1
+    - 151
+  - - 1
+    - 149
+  itemslots: 1
+  mp: 100
+  unkid: 1792

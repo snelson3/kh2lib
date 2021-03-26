@@ -91,7 +91,7 @@ class memoryparser:
                 bi += 1
             replace = not replace
         open(fn, "wb").write(f)
-    def readable_data(self, fn, record_spec, header_length=0x0, footer_length=0x0,hide_indices=[],swapendian=False, showinhex=True, aspandas=False, displayHeader=False,displayFooter=False, recordstoshow=None, showUniqueIndex=False, filter_to_nonzero_indices=[]):
+    def readable_data(self, fn, record_spec, header_length=0x0, footer_length=0x0,hide_indices=[],swapendian=False, showinhex=True, aspandas=False, displayHeader=False,displayFooter=False, recordstoshow=None, showUniqueIndex=False, filter_to_nonzero_indices=[], returnOutput=False):
         def _readable(ba):
             return " ".join([hex(i)[2:].zfill(2).upper() for i in ba])
         if aspandas:
@@ -155,13 +155,16 @@ class memoryparser:
             for r in recs:
                 s.append(r[showUniqueIndex])
             s = list(set(s))
-            print(sorted(s))
         elif not aspandas:
             for rec in recs:
                 if not showinhex:
                     print(rec)
                 else:
-                    print(" ".join(rec))
+                    x = " ".join(rec)
+                    if returnOutput:
+                        df += x + '\n'
+                    else:
+                        print(x)
         else:
             df = pd.DataFrame(recs)
         return df
@@ -189,8 +192,10 @@ class memoryparser:
         # Default shuffle everything
         if not indices_to_shuffle:
             indices_to_shuffle = list(range(len(recs[0])))
-            
+
+
         lists_of_indices = [[n[i] for n in recs] for i in range(len(recs[0]))]
+
         for i in range(len(lists_of_indices)):
             if i in indices_to_shuffle:
                 random.shuffle(lists_of_indices[i])
