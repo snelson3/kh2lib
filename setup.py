@@ -7,7 +7,7 @@ with open('README.md') as f:
 setup(
 	name = 'kh2lib',
 	packages = find_packages(),
-	package_data={'': ['data/*']}
+	package_data={'': ['data/*']},
 	version = 0.20,
 	long_description = long_description,
 	long_description_content_type='text/markdown',
