@@ -7,7 +7,8 @@ with open('README.md') as f:
 setup(
 	name = 'kh2lib',
 	packages = find_packages(),
-	version = 0.10,
+	package_data={'': ['data/*']}
+	version = 0.20,
 	long_description = long_description,
 	long_description_content_type='text/markdown',
 	license = 'MIT',
@@ -20,5 +21,8 @@ setup(
 		"Operating System :: OS Independent",
 		"Programming Language :: Python :: 3"
 	],
+	install_requires=[
+    	'PyYAML',
+    ],
 	platforms = 'any'
 )
