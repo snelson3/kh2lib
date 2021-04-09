@@ -253,7 +253,7 @@ class kh2lib:
             "itemslots": itemslt,
             "items": items
         }
-        self.give_to({0: options})
+        self.give_to({0: options, -1: options})
 
     def give_to(self, characters):
         def _lookupCharId(name):

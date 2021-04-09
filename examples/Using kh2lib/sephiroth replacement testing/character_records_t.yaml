@@ -1,0 +1,1168 @@
+- accessoryslots: 0
+  ap: 2
+  armorslots: 0
+  character: Sora
+  hp: 20
+  items: []
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Donald
+  hp: 18
+  items:
+  - EQPotion
+  - EQEther
+  - EQDonald Thunder
+  - EQDonald Cure
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 2
+  unk3: 2
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Goofy
+  hp: 28
+  items:
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQDivider
+  - EQThunder Boost
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 1
+  unk3: 3
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Mickey
+  hp: 60
+  items:
+  - EQAir Combo Plus
+  - EQScan
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Auron
+  hp: 45
+  items:
+  - EQPotion
+  - EQPotion
+  - EQOverdrive
+  - EQQuickplay
+  - EQHealing Water
+  - EQOnce More
+  - EQItem Boost
+  - EQMP Rage
+  - EQSecond Chance
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 0
+  unk3: 2
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Mulan
+  hp: 40
+  items:
+  - EQPotion
+  - EQPotion
+  - EQEther
+  - EQThunder Boost
+  - EQNo Experience
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Aladdin
+  hp: 55
+  items:
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQEther
+  - EQEther
+  - EQTrick Fantasy
+  - EQGoofy Turbo
+  - EQSlash Frenzy
+  - Once More
+  - EQThunder Boost
+  - EQDraw
+  - EQMP Rage
+  - EQSecond Chance
+  - Auto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 0
+  unk3: 5
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Jack Sparrow
+  hp: 50
+  items:
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQTreasure Isle
+  - EQSlow 2
+  - EQNo Mercy
+  - EQRain Storm
+  - Once More
+  - EQThunder Boost
+  - EQNo Experience
+  - EQNo Experience
+  - EQNo Experience
+  - EQJackpot
+  - MP Haste
+  - Hyper Healing
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 4
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Beast
+  hp: 40
+  items:
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQHowling Moon
+  - EQFurious Shout
+  - EQGoofy Bash
+  - EQOnce More
+  - EQThunder Boost
+  - EQDefender
+  - EQMP Haste
+  - Auto Change
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 1
+  unk3: 4
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Jack Skellington
+  hp: 55
+  items:
+  - EQPotion
+  - EQEther
+  - EQEther
+  - EQApplause, Applause
+  - EQFerocious Rush
+  - EQBlazing Fury
+  - EQIcy Terror
+  - Once More
+  - EQAuto Healing
+  - EQHyper Healing
+  - EQJackpot
+  - EQLucky Lucky
+  - Fire Boost
+  - Blizzard Boost
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 2
+  unk3: 3
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Simba
+  hp: 60
+  items:
+  - EQPotion
+  - EQPotion
+  - EQEther
+  - EQKing's Pride
+  - EQDark Aura
+  - EQFierce Claw
+  - EQHealing Herb
+  - EQOnce More
+  - EQItem Boost
+  - EQMP Haste
+  - Auto Change
+  - Hyper Healing
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 2
+  unk3: 3
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Tron
+  hp: 65
+  items:
+  - EQPotion
+  - EQEther
+  - EQThunder Boost
+  - EQDraw
+  - Auto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 2
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: Riku
+  hp: 100
+  items:
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQPotion
+  - EQEther
+  - EQEther
+  - EQEternal Session
+  - - 1
+    - 182
+  - EQFlametongue
+  - EQCure Potion
+  - Once More
+  - EQThunder Boost
+  - EQMP Haste
+  - EQDefender
+  - EQSecond Chance
+  - EQMP Hastera
+  - Auto Change
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 1
+  unk3: 6
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 129
+  hp: 0
+  items:
+  - EQHigh Jump LV1
+  - EQBrave Shot
+  - EQBrave Beat
+  - EQSonic Strike
+  - EQSonic End
+  - EQOver the Horizon
+  - EQOmega Finale
+  - EQAerial Finish
+  - EQSynch Blade
+  - EQCombo Plus
+  - EQAir Combo Plus
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 130
+  hp: 0
+  items:
+  - EQQuick Run LV1
+  - EQWisdom Shot
+  - EQMobile Action
+  - EQMagic Haste
+  - EQMagic Spice
+  - EQAerial Finish
+  - EQMP Hastera
+  - EQMP Hastera
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 131
+  hp: 0
+  items:
+  - EQVicinity Break
+  - EQDodge Roll MAX
+  - EQAuto Limit
+  - EQSonic Rave
+  - EQLast Arcanum
+  - EQStrike Raid
+  - EQInfinity
+  - EQZantetsuken
+  - EQManifest Illusion
+  - EQDark Remembrance Map
+  - EQZantetsu Counter
+  - EQGuard
+  - EQMaster Magic
+  - EQDodge Slash
+  - EQCounterguard
+  - EQItem Boost
+  - EQNo Experience
+  - EQJackpot
+  - EQMP Rage
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 132
+  hp: 0
+  items:
+  - EQAerial Dodge LV1
+  - EQDark City Map
+  - EQMaster Strike
+  - - 1
+    - 5
+  - EQSynch Blade
+  - EQDisaster
+  - EQAuto Healing
+  - EQAir Combo Plus
+  - EQAir Combo Plus
+  - EQNo Experience
+  - EQNo Experience
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 133
+  hp: 0
+  items:
+  - EQGlide LV1
+  - EQSolar Sailer Simulation Map
+  - EQMobile Action
+  - EQSynch Blade
+  - EQRunning Tackle
+  - EQDash
+  - EQFinal Arcana
+  - EQFinal Strike
+  - EQMP Rage
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 134
+  hp: 0
+  items:
+  - EQReflect Dummy
+  - EQUpper Dummy
+  - EQMagic Lock-On
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 135
+  hp: 0
+  items:
+  - EQCombo Plus
+  - EQCombo Plus
+  - EQAir Combo Plus
+  - EQAir Combo Plus
+  - EQWindow of Time Map
+  - EQAuto Assault
+  - EQFinishing Blast
+  - EQCombo Upper
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 138
+  hp: 0
+  items:
+  - EQScan
+  - EQThunder Boost
+  - EQMP Haste
+  - EQDefender
+  - EQSecond Chance
+  - EQDrive Converter
+  - EQDrive Converter
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 0
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - EQMaster Magic
+  - EQSlapshot
+  - EQDodge Slash
+  - EQSlide Dash
+  - EQGuard Break
+  - EQExplosion
+  - EQFinishing Leap
+  - EQCounterguard
+  - EQAerial Sweep
+  - EQAerial Spiral
+  - EQHorizontal Slash
+  - EQAerial Finish
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - Hades Cup Trophy
+  - The Struggle Trophy
+  - Drive Converter
+  - EQMajestic Mushroom+
+  - EQUltimate Mushroom
+  - EQFlash Step
+  - EQAerial Dive
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - EQQuick Run LV3
+  - EQAerial Dodge LV3
+  - EQGlide LV3
+  - EQHigh Jump LV3
+  - EQStruggle Sword
+  - EQAuto Valor
+  - EQDodge Roll LV3
+  - EQAuto Wisdom
+  - EQAuto Master
+  - EQAuto Final
+  - EQDodge Roll LV1
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 150
+  armorslots: 0
+  character: Sora
+  hp: 60
+  items:
+  - EQMegalixir
+  - EQElixir
+  - EQMega-Ether
+  - EQGuard
+  - EQUpper Slash
+  - EQScan
+  - EQAerial Recovery
+  - EQTrinity Limit
+  - EQReaction Boost
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Donald
+  hp: 18
+  items:
+  - EQFantasia
+  - EQFlare Force
+  - EQDonald Fire
+  - EQDonald Blizzard
+  - Once More
+  - Auto Healing
+  - Lucky Lucky
+  - Fire Boost
+  - Blizzard Boost
+  - No Experience
+  - Draw
+  - Jackpot
+  - Item Boost
+  - Auto Change
+  - Hyper Healing
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 2
+  unk3: 2
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Goofy
+  hp: 28
+  items:
+  - EQTornado Fusion
+  - EQTeamwork
+  - EQMP Hastega
+  - - 1
+    - 169
+  - Once More
+  - MP Haste
+  - Defender
+  - Second Chance
+  - EQAuto Limit
+  - No Experience
+  - Draw
+  - Jackpot
+  - Item Boost
+  - Auto Change
+  - Hyper Healing
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Auron
+  hp: 45
+  items:
+  - EQAuto Limit
+  - Once More
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 0
+  unk3: 2
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Mulan
+  hp: 40
+  items:
+  - EQAuto Limit
+  - EQDragonblase
+  - EQBolts of Sorrow
+  - EQMushu Fire
+  - EQOnce More
+  - Lucky Lucky
+  - Auto Change
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Aladdin
+  hp: 55
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 0
+  unk3: 5
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Jack Sparrow
+  hp: 50
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 4
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Beast
+  hp: 40
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 1
+  unk3: 4
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Jack Skellington
+  hp: 55
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 2
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Simba
+  hp: 60
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 0
+  unk2: 2
+  unk3: 3
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Tron
+  hp: 65
+  items:
+  - EQAuto Limit
+  - EQComplete Compilement
+  - - 1
+    - 188
+  - EQPulsing Thunder
+  - EQOnce More
+  - Blizzard Boost
+  - MP Rage
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 2
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Riku
+  hp: 100
+  items:
+  - EQAuto Limit
+  itemslots: 0
+  mp: 100
+  unk1: 2
+  unk2: 1
+  unk3: 6
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQRetaliating Slash
+  - EQPhoton Debugger
+  - EQHidden Dragon
+  - EQSave the Queen
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQPrecious Mushroom
+  - EQMajestic Mushroom
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQFire Element
+  - EQPotion
+  - EQOathkeeper
+  - EQHammer Staff
+  - EQAdamant Shield
+  - EQAcrisius
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQBlizzard Element
+  - EQHi-Potion
+  - EQOblivion
+  - EQVictory Bell
+  - EQChain Shield
+  - EQAcrisius
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQThunder Element
+  - EQEther
+  - EQUltimate Recipe
+  - EQMeteor Staff
+  - EQOgre Shield
+  - EQAcrisius
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQCure Element
+  - EQElixir
+  - EQStar Seeker
+  - EQComet Staff
+  - EQFalling Star
+  - EQGrand Ribbon
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQMagnet Element
+  - EQMega-Potion
+  - EQSave The King
+  - EQLord's Broom
+  - EQDream Cloud
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQReflect Element
+  - EQMega-Ether
+  - EQHero's Crest
+  - EQWisdom Wand
+  - EQKnight Defender
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQMegalixir
+  - EQMonochrome
+  - EQRising Dragon
+  - EQGenji Shield
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQFollow the Wind
+  - EQNobody Lance
+  - EQAkashic Record
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQTent
+  - EQCircle of Life
+  - EQShaman's Relic
+  - EQNobody Guard
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQStruggle Wand
+  - EQPlain Mushroom+
+  - EQJoyous Mushroom+
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQDrive Recovery
+  - EQGull Wing
+  - EQStruggle Hammer
+  - EQSave the Queen+
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQUkulele Charm (Summon Stitch)
+  - EQDrive Recovery
+  - EQRumbling Rose
+  - EQProtectga
+  - EQExecutive's Ring
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQDraw Ring
+  - EQUltima Weapon
+  - EQPlain Mushroom
+  - EQJoyous Mushroom
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQFeather Charm (Summon Peter Pan)
+  - EQDrive Recovery
+  - EQWishing Lamp
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQMega Recipe
+  - EQDrive Recovery
+  - EQDecisive Pumpkin
+  - EQLight & Darkness
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQDrive Recovery
+  - EQSleeping Lion
+  - EQDamage Control
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQValor Form
+  - EQSweet Memories
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQWisdom Form
+  - EQHigh Drive Recovery
+  - EQMysterious Abyss
+  - EQTwo Become One
+  - EQPrecious Mushroom+
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQMagnet Burst
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQMaster Form
+  - EQPower Boost
+  - EQFatal Crest
+  - EQWinner's Proof
+  - EQPremium Mushroom
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQFinal Form
+  - EQMagic Boost
+  - EQBond of Flame
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQAnti-Form
+  - EQDefense Boost
+  - EQFenrir
+  - EQCenturion
+  - EQFrozen Pride
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQLucky Ring
+  - EQBaseball Charm (Summon Chicken Little)
+  - EQCenturion+
+  - EQFrozen Pride+
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 100
+  hp: 0
+  items:
+  - EQLamp Charm (Summon Genie)
+  - EQDrive Recovery
+  - EQGuardian Soul
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 0
+  armorslots: 0
+  character: 135
+  hp: 0
+  items:
+  - EQRetaliating Smash
+  - EQPromise Charm
+  itemslots: 0
+  mp: 0
+  unk1: 0
+  unk2: 0
+  unk3: 0
+  unkid: 256
+- accessoryslots: 0
+  ap: 50
+  armorslots: 0
+  character: Sora
+  hp: 20
+  items:
+  - Reaction Boost
+  - Air Combo Boost
+  - Auto Healing
+  - Magic Lock-On
+  - Jackpot
+  - Jackpot
+  - No Experience
+  itemslots: 0
+  mp: 100
+  unk1: 1
+  unk2: 1
+  unk3: 3
+  unkid: 1792
