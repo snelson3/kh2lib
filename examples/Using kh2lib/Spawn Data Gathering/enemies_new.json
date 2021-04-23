@@ -7,21 +7,13 @@
         "variations": {
             "Fat Bandit": [
                 0,
-                0,
                 0
             ],
             "Fat Bandit (1)": [
-                0,
                 1,
                 0
             ],
             "Fat Bandit (2)": [
-                1,
-                0,
-                0
-            ],
-            "Fat Bandit (3)": [
-                0,
                 0,
                 1
             ]
@@ -37,22 +29,10 @@
         "type": "enemy",
         "variations": {
             "Hook Bat": [
-                1,
                 20,
                 0
             ],
             "Hook Bat (1)": [
-                0,
-                0,
-                0
-            ],
-            "Hook Bat (2)": [
-                0,
-                20,
-                0
-            ],
-            "Hook Bat (3)": [
-                1,
                 0,
                 0
             ]
@@ -67,12 +47,6 @@
         "type": "enemy",
         "variations": {
             "Surveillance Robot": [
-                2,
-                0,
-                0
-            ],
-            "Surveillance Robot (1)": [
-                0,
                 0,
                 0
             ]
@@ -89,12 +63,6 @@
         "variations": {
             "Trick Ghost": [
                 0,
-                0,
-                0
-            ],
-            "Trick Ghost (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -109,11 +77,9 @@
         "variations": {
             "Grim Reaper I": [
                 0,
-                0,
                 0
             ],
             "Grim Reaper I (1)": [
-                0,
                 1,
                 0
             ]
@@ -130,16 +96,9 @@
         "variations": {
             "Minute Bomb": [
                 0,
-                0,
                 0
             ],
             "Minute Bomb (1)": [
-                1,
-                0,
-                0
-            ],
-            "Minute Bomb (2)": [
-                0,
                 99,
                 0
             ]
@@ -156,12 +115,6 @@
         "variations": {
             "Assault Rider": [
                 0,
-                0,
-                0
-            ],
-            "Assault Rider (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -176,17 +129,6 @@
         "type": "enemy",
         "variations": {
             "Nightwalker": [
-                0,
-                0,
-                0
-            ],
-            "Nightwalker (1)": [
-                1,
-                0,
-                0
-            ],
-            "Nightwalker (2)": [
-                2,
                 0,
                 0
             ]
@@ -203,21 +145,9 @@
         "variations": {
             "Fortuneteller": [
                 0,
-                0,
                 0
             ],
             "Fortuneteller (1)": [
-                1,
-                0,
-                0
-            ],
-            "Fortuneteller (2)": [
-                1,
-                20,
-                0
-            ],
-            "Fortuneteller (3)": [
-                0,
                 20,
                 0
             ]
@@ -234,11 +164,9 @@
         "variations": {
             "Blizzard Lord": [
                 0,
-                0,
                 0
             ],
             "Blizzard Lord (1)": [
-                0,
                 1,
                 0
             ]
@@ -255,17 +183,10 @@
         "variations": {
             "Luna Bandit": [
                 0,
-                0,
                 0
             ],
             "Luna Bandit (1)": [
-                0,
                 1,
-                0
-            ],
-            "Luna Bandit (2)": [
-                1,
-                0,
                 0
             ]
         },
@@ -281,11 +202,9 @@
         "variations": {
             "Cannon Gun": [
                 0,
-                0,
                 0
             ],
             "Cannon Gun (1)": [
-                2,
                 1,
                 0
             ]
@@ -302,27 +221,14 @@
         "variations": {
             "Living Bone": [
                 0,
-                0,
                 0
             ],
             "Living Bone (1)": [
-                0,
                 1,
                 0
             ],
             "Living Bone (2)": [
-                0,
                 2,
-                0
-            ],
-            "Living Bone (3)": [
-                1,
-                1,
-                0
-            ],
-            "Living Bone (4)": [
-                1,
-                0,
                 0
             ]
         },
@@ -338,16 +244,13 @@
         "variations": {
             "Devastator": [
                 0,
-                0,
                 0
             ],
             "Devastator (1)": [
-                0,
                 2,
                 0
             ],
             "Devastator (2)": [
-                0,
                 3,
                 0
             ]
@@ -364,12 +267,6 @@
         "variations": {
             "Lance Soldier": [
                 0,
-                0,
-                0
-            ],
-            "Lance Soldier (1)": [
-                2,
-                0,
                 0
             ]
         },
@@ -384,7 +281,6 @@
         "type": "enemy",
         "variations": {
             "Driller Mole": [
-                0,
                 0,
                 0
             ]
@@ -401,7 +297,6 @@
         "variations": {
             "Hades Escape": [
                 0,
-                0,
                 0
             ]
         },
@@ -417,11 +312,9 @@
         "variations": {
             "Volcano Lord": [
                 0,
-                0,
                 0
             ],
             "Volcano Lord (1)": [
-                0,
                 1,
                 0
             ]
@@ -438,13 +331,140 @@
         "variations": {
             "Shan-Yu": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 70
+    },
+    "(M) Rabid Dog": {
+        "obj_id": 3,
+        "model": "M_EX510",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Rabid Dog": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Shaman": {
+        "obj_id": 19,
+        "model": "M_EX720",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Shaman": [
+                0,
+                0
+            ],
+            "(M) Shaman (1)": [
+                1,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Aerial Knocker": {
+        "obj_id": 20,
+        "model": "M_EX780",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Aerial Knocker": [
+                0,
+                0
+            ],
+            "(M) Aerial Knocker (1)": [
+                1,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Bookmaster (TR)": {
+        "obj_id": 1835,
+        "model": "M_EX530_TR",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bookmaster (TR)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Bookmaster": {
+        "obj_id": 5,
+        "model": "M_EX530",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bookmaster": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Neoshadow (NM)": {
+        "obj_id": 1836,
+        "model": "M_EX420_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Neoshadow (NM)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Creeper Plant (NM)": {
+        "obj_id": 1837,
+        "model": "M_EX750_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Creeper Plant (NM)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 5 (EX)": {
+        "obj_id": 2346,
+        "model": "M_EX350_05",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 5 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Final Xemnas": {
         "obj_id": 2079,
@@ -454,11 +474,9 @@
         "variations": {
             "Final Xemnas": [
                 0,
-                0,
                 0
             ],
             "Final Xemnas (1)": [
-                0,
                 1,
                 0
             ]
@@ -475,13 +493,27 @@
         "variations": {
             "Soldier NM": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 32
+    },
+    "(M) Aeroplane": {
+        "obj_id": 6,
+        "model": "M_EX540",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Aeroplane": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Xigbar": {
         "obj_id": 1570,
@@ -491,13 +523,35 @@
         "variations": {
             "Xigbar": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 123
+    },
+    "(M) Mushroom 6 (EX)": {
+        "obj_id": 2347,
+        "model": "M_EX350_06",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 6 (EX)": [
+                1,
+                0
+            ],
+            "(M) Mushroom 6 (EX) (1)": [
+                2,
+                0
+            ],
+            "(M) Mushroom 6 (EX) (2)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Bees": {
         "obj_id": 1573,
@@ -506,7 +560,6 @@
         "type": "enemy",
         "variations": {
             "Bees": [
-                0,
                 0,
                 0
             ]
@@ -522,11 +575,9 @@
         "variations": {
             "Bolt Tower": [
                 0,
-                0,
                 0
             ],
             "Bolt Tower (1)": [
-                0,
                 1,
                 0
             ]
@@ -534,6 +585,25 @@
         "enabled": true,
         "islarge": false,
         "enmp_index": 38
+    },
+    "(M) Hammer Frame": {
+        "obj_id": 8,
+        "model": "M_EX560",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Hammer Frame": [
+                0,
+                0
+            ],
+            "(M) Hammer Frame (1)": [
+                99,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Shadow WI": {
         "obj_id": 1840,
@@ -543,18 +613,42 @@
         "variations": {
             "Shadow WI": [
                 0,
-                0,
-                0
-            ],
-            "Shadow WI (1)": [
-                1,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 33
+    },
+    "(M) Bolt Tower (RAW)": {
+        "obj_id": 1576,
+        "model": "M_EX800_RAW",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bolt Tower (RAW)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Soldier (TR)": {
+        "obj_id": 1839,
+        "model": "M_EX010_TR",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Soldier (TR)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Twilight Thorn": {
         "obj_id": 307,
@@ -563,7 +657,6 @@
         "type": "boss",
         "variations": {
             "Twilight Thorn": [
-                0,
                 0,
                 0
             ]
@@ -580,13 +673,95 @@
         "variations": {
             "Setzer": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 146
+    },
+    "(M) Mushroom 1 (EX)": {
+        "obj_id": 2342,
+        "model": "M_EX350_01",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 1 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Scar Ghost": {
+        "obj_id": 2099,
+        "model": "B_LK110_PHANTOM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Scar Ghost": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 9 (EX)": {
+        "obj_id": 2350,
+        "model": "M_EX350_09",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 9 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 10 (EX)": {
+        "obj_id": 2351,
+        "model": "M_EX350_10",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 10 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(N) Jafar clone (BTL) (AL)": {
+        "obj_id": 1593,
+        "model": "N_AL070_BTL",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(N) Jafar clone (BTL) (AL)": [
+                0,
+                0
+            ],
+            "(N) Jafar clone (BTL) (AL) (1)": [
+                1,
+                0
+            ],
+            "(N) Jafar clone (BTL) (AL) (2)": [
+                2,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Riku": {
         "obj_id": 1596,
@@ -596,13 +771,87 @@
         "variations": {
             "Riku": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 120
+    },
+    "(M) Cannon Gun (TR)": {
+        "obj_id": 1832,
+        "model": "M_EX650_TR",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Cannon Gun (TR)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 12 (EX)": {
+        "obj_id": 2353,
+        "model": "M_EX350_12",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 12 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Hot Rod": {
+        "obj_id": 13,
+        "model": "M_EX640",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Hot Rod": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Armored Knight (NM)": {
+        "obj_id": 1845,
+        "model": "M_EX760_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Armored Knight (NM)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 2 (EX)": {
+        "obj_id": 2343,
+        "model": "M_EX350_02",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 2 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Xemnas": {
         "obj_id": 1606,
@@ -611,7 +860,6 @@
         "type": "boss",
         "variations": {
             "Xemnas": [
-                0,
                 0,
                 0
             ]
@@ -627,7 +875,6 @@
         "type": "boss",
         "variations": {
             "Past Pete": [
-                0,
                 1,
                 0
             ]
@@ -644,17 +891,10 @@
         "variations": {
             "Silver Rock": [
                 0,
-                0,
                 0
             ],
             "Silver Rock (1)": [
-                0,
                 1,
-                0
-            ],
-            "Silver Rock (2)": [
-                1,
-                0,
                 0
             ]
         },
@@ -669,26 +909,13 @@
         "variations": {
             "Crimson Jazz": [
                 0,
-                0,
                 0
             ],
             "Crimson Jazz (1)": [
-                0,
                 1,
                 0
             ],
             "Crimson Jazz (2)": [
-                1,
-                0,
-                0
-            ],
-            "Crimson Jazz (3)": [
-                1,
-                20,
-                0
-            ],
-            "Crimson Jazz (4)": [
-                0,
                 20,
                 0
             ]
@@ -705,21 +932,9 @@
         "variations": {
             "Air Pirate": [
                 0,
-                0,
                 0
             ],
             "Air Pirate (1)": [
-                1,
-                0,
-                0
-            ],
-            "Air Pirate (2)": [
-                0,
-                1,
-                0
-            ],
-            "Air Pirate (3)": [
-                1,
                 1,
                 0
             ]
@@ -728,6 +943,21 @@
         "islarge": false,
         "enmp_index": 3
     },
+    "(M) Emerald Blues": {
+        "obj_id": 72,
+        "model": "M_EX120",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Emerald Blues": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Fiery Globe": {
         "obj_id": 76,
         "model": "M_AL020_FIRE",
@@ -735,12 +965,6 @@
         "type": "enemy",
         "variations": {
             "Fiery Globe": [
-                1,
-                0,
-                0
-            ],
-            "Fiery Globe (1)": [
-                0,
                 0,
                 0
             ]
@@ -757,18 +981,50 @@
         "variations": {
             "Icy Cube": [
                 0,
-                0,
-                0
-            ],
-            "Icy Cube (1)": [
-                1,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 6
+    },
+    "(M) Bulky Vendor": {
+        "obj_id": 75,
+        "model": "M_EX590",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bulky Vendor": [
+                1,
+                0
+            ],
+            "(M) Bulky Vendor (1)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Surveillance Robot (TR)": {
+        "obj_id": 1847,
+        "model": "M_EX770_TR",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Surveillance Robot (TR)": [
+                0,
+                0
+            ],
+            "(M) Surveillance Robot (TR) (1)": [
+                2,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Axel II": {
         "obj_id": 81,
@@ -778,13 +1034,153 @@
         "variations": {
             "Axel II": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 138
+    },
+    "(M) Undead Pirate A": {
+        "obj_id": 1107,
+        "model": "B_CA020",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Undead Pirate A": [
+                0,
+                0
+            ],
+            "(M) Undead Pirate A (1)": [
+                11,
+                0
+            ],
+            "(M) Undead Pirate A (2)": [
+                12,
+                0
+            ],
+            "(M) Undead Pirate A (3)": [
+                90,
+                0
+            ],
+            "(M) Undead Pirate A (4)": [
+                93,
+                0
+            ],
+            "(M) Undead Pirate A (5)": [
+                22,
+                0
+            ],
+            "(M) Undead Pirate A (6)": [
+                24,
+                0
+            ],
+            "(M) Undead Pirate A (7)": [
+                20,
+                0
+            ],
+            "(M) Undead Pirate A (8)": [
+                91,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Undead Pirate B": {
+        "obj_id": 1108,
+        "model": "B_CA030",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Undead Pirate B": [
+                0,
+                0
+            ],
+            "(M) Undead Pirate B (1)": [
+                90,
+                0
+            ],
+            "(M) Undead Pirate B (2)": [
+                93,
+                0
+            ],
+            "(M) Undead Pirate B (3)": [
+                92,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Undead Pirate C": {
+        "obj_id": 1109,
+        "model": "B_CA040",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Undead Pirate C": [
+                0,
+                0
+            ],
+            "(M) Undead Pirate C (1)": [
+                10,
+                0
+            ],
+            "(M) Undead Pirate C (2)": [
+                13,
+                0
+            ],
+            "(M) Undead Pirate C (3)": [
+                92,
+                0
+            ],
+            "(M) Undead Pirate C (4)": [
+                93,
+                0
+            ],
+            "(M) Undead Pirate C (5)": [
+                12,
+                0
+            ],
+            "(M) Undead Pirate C (6)": [
+                6,
+                0
+            ],
+            "(M) Undead Pirate C (7)": [
+                2,
+                0
+            ],
+            "(M) Undead Pirate C (8)": [
+                8,
+                0
+            ],
+            "(M) Undead Pirate C (9)": [
+                26,
+                0
+            ],
+            "(M) Undead Pirate C (10)": [
+                28,
+                0
+            ],
+            "(M) Undead Pirate C (11)": [
+                91,
+                0
+            ],
+            "(M) Undead Pirate C (12)": [
+                11,
+                0
+            ],
+            "(M) Undead Pirate C (13)": [
+                90,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Groundshaker": {
         "obj_id": 1113,
@@ -794,13 +1190,42 @@
         "variations": {
             "Groundshaker": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 90
+    },
+    "(M) Strafer": {
+        "obj_id": 1114,
+        "model": "M_EX610",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Strafer": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(F) Bees (TT) (PO)": {
+        "obj_id": 2138,
+        "model": "F_PO090_TT",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) Bees (TT) (PO)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Armor Xemnas": {
         "obj_id": 2140,
@@ -810,11 +1235,9 @@
         "variations": {
             "Armor Xemnas": [
                 0,
-                0,
                 0
             ],
             "Armor Xemnas (1)": [
-                0,
                 1,
                 0
             ]
@@ -823,6 +1246,36 @@
         "islarge": false,
         "enmp_index": 147
     },
+    "(F) Bees (ETC) (PO)": {
+        "obj_id": 2139,
+        "model": "F_PO090_ETC",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) Bees (ETC) (PO)": [
+                0,
+                3
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 3 (EX)": {
+        "obj_id": 2344,
+        "model": "M_EX350_03",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 3 (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Vivi": {
         "obj_id": 2156,
         "model": "N_EX610_BTL",
@@ -830,7 +1283,6 @@
         "type": "boss",
         "variations": {
             "Vivi": [
-                0,
                 1,
                 0
             ]
@@ -839,6 +1291,21 @@
         "islarge": false,
         "enmp_index": 145
     },
+    "(M) Wight Knight": {
+        "obj_id": 118,
+        "model": "M_EX200",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Wight Knight": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Wight Knight NM": {
         "obj_id": 119,
         "model": "M_EX200_NM",
@@ -846,12 +1313,6 @@
         "type": "enemy",
         "variations": {
             "Wight Knight NM": [
-                0,
-                0,
-                0
-            ],
-            "Wight Knight NM (1)": [
-                1,
                 0,
                 0
             ]
@@ -867,27 +1328,22 @@
         "type": "boss",
         "variations": {
             "Seifer": [
-                0,
                 3,
                 0
             ],
             "Seifer (1)": [
-                0,
                 1,
                 0
             ],
             "Seifer (2)": [
-                0,
                 2,
                 0
             ],
             "Seifer (3)": [
-                0,
                 4,
                 0
             ],
             "Seifer (4)": [
-                0,
                 5,
                 0
             ]
@@ -904,12 +1360,6 @@
         "variations": {
             "Magnum Loader": [
                 0,
-                0,
-                0
-            ],
-            "Magnum Loader (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -925,11 +1375,9 @@
         "variations": {
             "Morning Star": [
                 0,
-                0,
                 0
             ],
             "Morning Star (1)": [
-                0,
                 99,
                 0
             ]
@@ -946,7 +1394,6 @@
         "variations": {
             "Tornado Step": [
                 0,
-                0,
                 0
             ]
         },
@@ -962,18 +1409,39 @@
         "variations": {
             "Crescendo": [
                 0,
-                0,
-                0
-            ],
-            "Crescendo (1)": [
-                1,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 13
+    },
+    "(M) Neoshadow": {
+        "obj_id": 120,
+        "model": "M_EX420",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Neoshadow": [
+                0,
+                0
+            ],
+            "(M) Neoshadow (1)": [
+                1,
+                0
+            ],
+            "(M) Neoshadow (2)": [
+                44,
+                0
+            ],
+            "(M) Neoshadow (3)": [
+                99,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Oogie Boogie": {
         "obj_id": 126,
@@ -982,7 +1450,6 @@
         "type": "boss",
         "variations": {
             "Oogie Boogie": [
-                0,
                 1,
                 0
             ]
@@ -999,7 +1466,6 @@
         "variations": {
             "Lock": [
                 0,
-                0,
                 0
             ]
         },
@@ -1014,7 +1480,6 @@
         "type": "boss",
         "variations": {
             "Shock": [
-                0,
                 0,
                 0
             ]
@@ -1031,13 +1496,61 @@
         "variations": {
             "Barrel": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 17
+    },
+    "(M) Creeper Plant": {
+        "obj_id": 125,
+        "model": "M_EX750",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Creeper Plant": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(F) Shadow Stalker (Chandelier) (BB)": {
+        "obj_id": 644,
+        "model": "F_BB050",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) Shadow Stalker (Chandelier) (BB)": [
+                1,
+                0
+            ],
+            "(F) Shadow Stalker (Chandelier) (BB) (1)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(F) Shadow Stalker (Columns) (BB)": {
+        "obj_id": 645,
+        "model": "F_BB060",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) Shadow Stalker (Columns) (BB)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Fiery Globe Treasure Room": {
         "obj_id": 1670,
@@ -1046,7 +1559,6 @@
         "type": "enemy",
         "variations": {
             "Fiery Globe Treasure Room": [
-                0,
                 0,
                 0
             ]
@@ -1063,13 +1575,41 @@
         "variations": {
             "Icy Cube Treasure Room": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 6
+    },
+    "(M) Magnum Loader (white)": {
+        "obj_id": 1675,
+        "model": "M_EX600_LC",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Magnum Loader (white)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "Dragon Xemnas": {
+        "obj_id": 2189,
+        "model": "B_EX330",
+        "size": 2689964,
+        "type": "boss",
+        "variations": {
+            "Dragon Xemnas": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
     },
     "Shenzie": {
         "obj_id": 665,
@@ -1079,11 +1619,9 @@
         "variations": {
             "Shenzie": [
                 0,
-                0,
                 0
             ],
             "Shenzie (1)": [
-                0,
                 3,
                 0
             ]
@@ -1100,11 +1638,9 @@
         "variations": {
             "Banzai": [
                 0,
-                0,
                 0
             ],
             "Banzai (1)": [
-                0,
                 2,
                 0
             ]
@@ -1121,11 +1657,9 @@
         "variations": {
             "Ed": [
                 0,
-                0,
                 0
             ],
             "Ed (1)": [
-                0,
                 1,
                 0
             ]
@@ -1141,7 +1675,6 @@
         "type": "enemy",
         "variations": {
             "Nobody from Final Battle v1": [
-                1,
                 0,
                 0
             ]
@@ -1157,13 +1690,41 @@
         "variations": {
             "Scar": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 89
+    },
+    "Demyx's Water Clone": {
+        "obj_id": 1184,
+        "model": "M_EX880_DANCER",
+        "size": 1342620,
+        "type": "extra",
+        "variations": {
+            "Demyx's Water Clone": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
+    "(B) Large platform from TWTNW with pink spike": {
+        "obj_id": 2226,
+        "model": "B_EX350",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(B) Large platform from TWTNW with pink spike": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Axel I": {
         "obj_id": 2229,
@@ -1172,7 +1733,6 @@
         "type": "boss",
         "variations": {
             "Axel I": [
-                0,
                 1,
                 0
             ]
@@ -1188,13 +1748,27 @@
         "variations": {
             "Sephiroth": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 130
+    },
+    "(M) Magnum Loader (blue)": {
+        "obj_id": 1717,
+        "model": "M_EX600_LC_ATK",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Magnum Loader (blue)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Hostile Program": {
         "obj_id": 1208,
@@ -1204,13 +1778,42 @@
         "variations": {
             "Hostile Program": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 99
+    },
+    "(M) Magnum Loader (yellow)": {
+        "obj_id": 1718,
+        "model": "M_EX600_LC_CHG",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Magnum Loader (yellow)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Magnum Loader (green)": {
+        "obj_id": 1719,
+        "model": "M_EX600_LC_GRD",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Magnum Loader (green)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Pete OC I": {
         "obj_id": 1723,
@@ -1219,7 +1822,6 @@
         "type": "boss",
         "variations": {
             "Pete OC I": [
-                0,
                 0,
                 0
             ]
@@ -1236,13 +1838,132 @@
         "variations": {
             "Pete OC II": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 25
+    },
+    "(M) Bolt Tower (MU)": {
+        "obj_id": 2238,
+        "model": "M_EX800_MU",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bolt Tower (MU)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Shadow (NM)": {
+        "obj_id": 1220,
+        "model": "M_EX020_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Shadow (NM)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(EH) Speeder B (G_EX)": {
+        "obj_id": 2247,
+        "model": "EH_G_EX290",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(EH) Speeder B (G_EX)": [
+                3,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (1)": [
+                7,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (2)": [
+                1,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (3)": [
+                9,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (4)": [
+                2,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (5)": [
+                4,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (6)": [
+                8,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (7)": [
+                6,
+                0
+            ],
+            "(EH) Speeder B (G_EX) (8)": [
+                5,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(EH) Spiked Roller B (G_EX)": {
+        "obj_id": 2248,
+        "model": "EH_G_EX320",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(EH) Spiked Roller B (G_EX)": [
+                5,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (1)": [
+                4,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (2)": [
+                6,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (3)": [
+                2,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (4)": [
+                8,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (5)": [
+                1,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (6)": [
+                7,
+                0
+            ],
+            "(EH) Spiked Roller B (G_EX) (7)": [
+                9,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Saix": {
         "obj_id": 1737,
@@ -1251,7 +1972,6 @@
         "type": "boss",
         "variations": {
             "Saix": [
-                0,
                 0,
                 0
             ]
@@ -1268,13 +1988,61 @@
         "variations": {
             "The Beast": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 72
+    },
+    "(N) Vivi (BTL2) (EX)": {
+        "obj_id": 2256,
+        "model": "N_EX610_BTL2",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(N) Vivi (BTL2) (EX)": [
+                2,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(B) ??? - Barriers from Storm Rider?": {
+        "obj_id": 721,
+        "model": "B_MU130",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(B) ??? - Barriers from Storm Rider?": [
+                1,
+                0
+            ],
+            "(B) ??? - Barriers from Storm Rider? (1)": [
+                2,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(EH) Xemnas's dragon missile (G_EX)": {
+        "obj_id": 2261,
+        "model": "EH_G_EX120",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(EH) Xemnas's dragon missile (G_EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Hayner": {
         "obj_id": 1239,
@@ -1284,13 +2052,136 @@
         "variations": {
             "Hayner": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 140
+    },
+    "(M) Aeriel Champ": {
+        "obj_id": 2410,
+        "model": "M_EX780_HB",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Aeriel Champ": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Fortuneteller (AL)": {
+        "obj_id": 1760,
+        "model": "M_EX620_AL",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Fortuneteller (AL)": [
+                4,
+                0
+            ],
+            "(M) Fortuneteller (AL) (1)": [
+                14,
+                20
+            ],
+            "(M) Fortuneteller (AL) (2)": [
+                13,
+                0
+            ],
+            "(M) Fortuneteller (AL) (3)": [
+                10,
+                32
+            ],
+            "(M) Fortuneteller (AL) (4)": [
+                13,
+                32
+            ],
+            "(M) Fortuneteller (AL) (5)": [
+                1,
+                30
+            ],
+            "(M) Fortuneteller (AL) (6)": [
+                6,
+                30
+            ],
+            "(M) Fortuneteller (AL) (7)": [
+                7,
+                0
+            ],
+            "(M) Fortuneteller (AL) (8)": [
+                10,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(EH) Bomb Bell B (FLY) (G_EX)": {
+        "obj_id": 2285,
+        "model": "EH_G_EX250_FLY",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(EH) Bomb Bell B (FLY) (G_EX)": [
+                1,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (1)": [
+                8,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (2)": [
+                3,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (3)": [
+                4,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (4)": [
+                6,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (5)": [
+                2,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (6)": [
+                9,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (7)": [
+                7,
+                0
+            ],
+            "(EH) Bomb Bell B (FLY) (G_EX) (8)": [
+                5,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Luxord's card (time?) (EX)": {
+        "obj_id": 2286,
+        "model": "B_EX210_EH",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Luxord's card (time?) (EX)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Graveyard NM": {
         "obj_id": 1775,
@@ -1299,17 +2190,6 @@
         "type": "enemy",
         "variations": {
             "Graveyard NM": [
-                0,
-                0,
-                0
-            ],
-            "Graveyard NM (1)": [
-                1,
-                0,
-                0
-            ],
-            "Graveyard NM (2)": [
-                2,
                 0,
                 0
             ]
@@ -1326,7 +2206,6 @@
         "variations": {
             "Bolt Tower DC": [
                 0,
-                0,
                 0
             ]
         },
@@ -1341,7 +2220,6 @@
         "type": "boss",
         "variations": {
             "Sark": [
-                0,
                 0,
                 0
             ]
@@ -1358,7 +2236,6 @@
         "variations": {
             "Thresholder": [
                 0,
-                0,
                 0
             ]
         },
@@ -1374,12 +2251,49 @@
         "variations": {
             "Toy Soldier NM": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": false,
         "islarge": false
+    },
+    "(M) Toy Soldier": {
+        "obj_id": 1776,
+        "model": "M_EX790_CHRISTMAS",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Toy Soldier": [
+                0,
+                0
+            ],
+            "(M) Toy Soldier (1)": [
+                2,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(F) ??? (WI)": {
+        "obj_id": 758,
+        "model": "F_WI310",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) ??? (WI)": [
+                1,
+                0
+            ],
+            "(F) ??? (WI) (1)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Demyx": {
         "obj_id": 2295,
@@ -1388,7 +2302,6 @@
         "type": "boss",
         "variations": {
             "Demyx": [
-                0,
                 1,
                 0
             ]
@@ -1404,22 +2317,18 @@
         "type": "boss",
         "variations": {
             "Leon": [
-                0,
                 1,
                 0
             ],
             "Leon (1)": [
-                0,
                 3,
                 0
             ],
             "Leon (2)": [
-                0,
                 4,
                 0
             ],
             "Leon (3)": [
-                0,
                 2,
                 0
             ]
@@ -1435,17 +2344,14 @@
         "type": "boss",
         "variations": {
             "Cloud": [
-                0,
                 1,
                 0
             ],
             "Cloud (1)": [
-                0,
                 2,
                 0
             ],
             "Cloud (2)": [
-                0,
                 3,
                 0
             ]
@@ -1462,7 +2368,6 @@
         "variations": {
             "Shadow Stalker": [
                 0,
-                0,
                 0
             ]
         },
@@ -1477,17 +2382,14 @@
         "type": "boss",
         "variations": {
             "Tifa": [
-                0,
                 1,
                 0
             ],
             "Tifa (1)": [
-                0,
                 2,
                 0
             ],
             "Tifa (2)": [
-                0,
                 3,
                 0
             ]
@@ -1503,22 +2405,18 @@
         "type": "boss",
         "variations": {
             "Yuffie": [
-                0,
                 1,
                 0
             ],
             "Yuffie (1)": [
-                0,
                 3,
                 0
             ],
             "Yuffie (2)": [
-                0,
                 4,
                 0
             ],
             "Yuffie (3)": [
-                0,
                 2,
                 0
             ]
@@ -1527,6 +2425,21 @@
         "islarge": false,
         "enmp_index": 162
     },
+    "(M) Demyx's water form (EH)": {
+        "obj_id": 2294,
+        "model": "M_EX880_DANCER_EH",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Demyx's water form (EH)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Storm Rider": {
         "obj_id": 357,
         "model": "B_MU120",
@@ -1534,7 +2447,6 @@
         "type": "boss",
         "variations": {
             "Storm Rider": [
-                0,
                 0,
                 0
             ]
@@ -1551,7 +2463,6 @@
         "variations": {
             "Hades Cups": [
                 0,
-                0,
                 0
             ]
         },
@@ -1567,7 +2478,6 @@
         "variations": {
             "Pete Cups": [
                 0,
-                0,
                 0
             ]
         },
@@ -1582,7 +2492,6 @@
         "type": "boss",
         "variations": {
             "Hercules": [
-                0,
                 1,
                 0
             ]
@@ -1591,6 +2500,48 @@
         "islarge": false,
         "enmp_index": 157
     },
+    "The Experiment Head": {
+        "obj_id": 1808,
+        "model": "B_NM110_HEAD",
+        "size": 771246,
+        "type": "extra",
+        "variations": {
+            "The Experiment Head": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
+    "The Experiment Left Hand": {
+        "obj_id": 1809,
+        "model": "B_NM110_L_ARM",
+        "size": 788874,
+        "type": "extra",
+        "variations": {
+            "The Experiment Left Hand": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
+    "The Experiment Right Hand": {
+        "obj_id": 1810,
+        "model": "B_NM110_R_ARM",
+        "size": 767918,
+        "type": "extra",
+        "variations": {
+            "The Experiment Right Hand": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
     "Demyx OC": {
         "obj_id": 795,
         "model": "B_EX120",
@@ -1598,7 +2549,6 @@
         "type": "boss",
         "variations": {
             "Demyx OC": [
-                0,
                 0,
                 0
             ]
@@ -1613,102 +2563,82 @@
         "type": "enemy",
         "variations": {
             "Rapid Thruster AL": [
-                0,
                 12,
                 0
             ],
             "Rapid Thruster AL (1)": [
-                0,
                 13,
                 0
             ],
             "Rapid Thruster AL (2)": [
-                0,
                 7,
                 0
             ],
             "Rapid Thruster AL (3)": [
-                0,
                 14,
                 0
             ],
             "Rapid Thruster AL (4)": [
-                0,
                 11,
                 0
             ],
             "Rapid Thruster AL (5)": [
-                0,
                 5,
                 0
             ],
             "Rapid Thruster AL (6)": [
-                0,
                 6,
                 0
             ],
             "Rapid Thruster AL (7)": [
-                0,
                 12,
                 17
             ],
             "Rapid Thruster AL (8)": [
-                0,
                 1,
                 0
             ],
             "Rapid Thruster AL (9)": [
-                0,
                 3,
                 0
             ],
             "Rapid Thruster AL (10)": [
-                0,
                 4,
                 0
             ],
             "Rapid Thruster AL (11)": [
-                0,
                 9,
                 0
             ],
             "Rapid Thruster AL (12)": [
-                0,
                 14,
                 30
             ],
             "Rapid Thruster AL (13)": [
-                0,
                 8,
                 30
             ],
             "Rapid Thruster AL (14)": [
-                0,
                 4,
                 30
             ],
             "Rapid Thruster AL (15)": [
-                0,
                 12,
                 32
             ],
             "Rapid Thruster AL (16)": [
-                0,
                 6,
                 31
             ],
             "Rapid Thruster AL (17)": [
-                0,
                 10,
                 31
             ],
             "Rapid Thruster AL (18)": [
-                0,
                 2,
                 32
             ],
             "Rapid Thruster AL (19)": [
-                0,
                 2,
                 0
             ]
@@ -1725,11 +2655,9 @@
         "variations": {
             "Data Marluxia": [
                 0,
-                0,
                 1
             ],
             "Data Marluxia (1)": [
-                0,
                 0,
                 0
             ]
@@ -1746,17 +2674,6 @@
         "variations": {
             "Aeroplane WI": [
                 0,
-                0,
-                0
-            ],
-            "Aeroplane WI (1)": [
-                1,
-                0,
-                0
-            ],
-            "Aeroplane WI (2)": [
-                2,
-                0,
                 0
             ]
         },
@@ -1771,12 +2688,6 @@
         "type": "enemy",
         "variations": {
             "Minute Bomb WI": [
-                0,
-                0,
-                0
-            ],
-            "Minute Bomb WI (1)": [
-                1,
                 0,
                 0
             ]
@@ -1793,12 +2704,6 @@
         "variations": {
             "Hammer Frame WI": [
                 0,
-                0,
-                0
-            ],
-            "Hammer Frame WI (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -1814,13 +2719,27 @@
         "variations": {
             "Hot Rod WI": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 63
+    },
+    "(M) Trick Ghost (NM)": {
+        "obj_id": 1827,
+        "model": "M_EX500_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Trick Ghost (NM)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Driller Mole NM": {
         "obj_id": 1833,
@@ -1829,12 +2748,6 @@
         "type": "enemy",
         "variations": {
             "Driller Mole NM": [
-                0,
-                0,
-                0
-            ],
-            "Driller Mole NM (1)": [
-                1,
                 0,
                 0
             ]
@@ -1851,7 +2764,6 @@
         "variations": {
             "Emerald Blues NM": [
                 0,
-                0,
                 0
             ]
         },
@@ -1859,36 +2771,47 @@
         "islarge": false,
         "enmp_index": 1
     },
-    "Soldier": {
-        "obj_id": 301,
-        "model": "M_EX010",
-        "size": 787284,
+    "No. 4": {
+        "obj_id": 2345,
+        "model": "M_EX350_04",
+        "size": 2644106,
         "type": "enemy",
         "variations": {
-            "Soldier": [
+            "No. 4": [
                 0,
-                0,
-                0
-            ],
-            "Soldier (1)": [
-                0,
-                1,
-                0
-            ],
-            "Soldier (2)": [
-                1,
-                0,
-                0
-            ],
-            "Soldier (3)": [
-                0,
-                99,
                 0
             ]
         },
-        "enabled": true,
-        "islarge": false,
-        "enmp_index": 32
+        "enabled": false,
+        "islarge": false
+    },
+    "No. 7": {
+        "obj_id": 2348,
+        "model": "M_EX350_07",
+        "size": 809722,
+        "type": "enemy",
+        "variations": {
+            "No. 7": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
+    "No. 8": {
+        "obj_id": 2349,
+        "model": "M_EX350_08",
+        "size": 797468,
+        "type": "enemy",
+        "variations": {
+            "No. 8": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
     },
     "Shadow": {
         "obj_id": 302,
@@ -1898,26 +2821,13 @@
         "variations": {
             "Shadow": [
                 0,
-                0,
                 0
             ],
             "Shadow (1)": [
-                0,
                 1,
                 0
             ],
             "Shadow (2)": [
-                1,
-                0,
-                0
-            ],
-            "Shadow (3)": [
-                0,
-                99,
-                0
-            ],
-            "Shadow (4)": [
-                1,
                 99,
                 0
             ]
@@ -1934,7 +2844,6 @@
         "variations": {
             "Large Body": [
                 0,
-                0,
                 0
             ]
         },
@@ -1942,51 +2851,19 @@
         "islarge": false,
         "enmp_index": 34
     },
-    "Rapid Thruster": {
-        "obj_id": 304,
-        "model": "M_EX660",
-        "size": 251012,
+    "No. 11": {
+        "obj_id": 2352,
+        "model": "M_EX350_11",
+        "size": 772142,
         "type": "enemy",
         "variations": {
-            "Rapid Thruster": [
-                1,
-                20,
-                0
-            ],
-            "Rapid Thruster (1)": [
+            "No. 11": [
                 0,
-                20,
-                0
-            ],
-            "Rapid Thruster (2)": [
-                0,
-                0,
-                0
-            ],
-            "Rapid Thruster (3)": [
-                1,
-                0,
-                0
-            ],
-            "Rapid Thruster (4)": [
-                2,
-                0,
-                0
-            ],
-            "Rapid Thruster (5)": [
-                0,
-                90,
-                0
-            ],
-            "Rapid Thruster (6)": [
-                0,
-                1,
                 0
             ]
         },
-        "enabled": true,
-        "islarge": false,
-        "enmp_index": 37
+        "enabled": false,
+        "islarge": false
     },
     "Armored Knight": {
         "obj_id": 305,
@@ -1996,23 +2873,43 @@
         "variations": {
             "Armored Knight": [
                 0,
-                0,
                 0
             ],
             "Armored Knight (1)": [
-                0,
                 90,
-                0
-            ],
-            "Armored Knight (2)": [
-                1,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 35
+    },
+    "Rapid Thruster": {
+        "obj_id": 304,
+        "model": "M_EX660",
+        "size": 251012,
+        "type": "enemy",
+        "variations": {
+            "Rapid Thruster": [
+                20,
+                0
+            ],
+            "Rapid Thruster (1)": [
+                0,
+                0
+            ],
+            "Rapid Thruster (2)": [
+                90,
+                0
+            ],
+            "Rapid Thruster (3)": [
+                1,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 37
     },
     "Data Vexen": {
         "obj_id": 2355,
@@ -2021,12 +2918,10 @@
         "type": "boss",
         "variations": {
             "Data Vexen": [
-                0,
                 1,
                 1
             ],
             "Data Vexen (1)": [
-                0,
                 1,
                 0
             ]
@@ -2043,12 +2938,6 @@
         "variations": {
             "Assassin": [
                 0,
-                0,
-                0
-            ],
-            "Assassin (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2064,11 +2953,9 @@
         "variations": {
             "Data Lexaeus": [
                 0,
-                0,
                 1
             ],
             "Data Lexaeus (1)": [
-                0,
                 0,
                 0
             ]
@@ -2085,16 +2972,9 @@
         "variations": {
             "Dragoon": [
                 0,
-                0,
                 0
             ],
             "Dragoon (1)": [
-                1,
-                0,
-                0
-            ],
-            "Dragoon (2)": [
-                0,
                 99,
                 0
             ]
@@ -2111,16 +2991,9 @@
         "variations": {
             "Dancer": [
                 0,
-                0,
                 0
             ],
             "Dancer (1)": [
-                1,
-                0,
-                0
-            ],
-            "Dancer (2)": [
-                0,
                 99,
                 0
             ]
@@ -2137,12 +3010,6 @@
         "variations": {
             "Berserker": [
                 0,
-                0,
-                0
-            ],
-            "Berserker (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2158,36 +3025,21 @@
         "variations": {
             "Gambler": [
                 0,
-                0,
                 0
             ],
             "Gambler (1)": [
-                0,
                 1,
                 0
             ],
             "Gambler (2)": [
-                0,
                 5,
                 0
             ],
             "Gambler (3)": [
-                1,
-                5,
-                0
-            ],
-            "Gambler (4)": [
-                0,
                 90,
                 0
             ],
-            "Gambler (5)": [
-                1,
-                0,
-                0
-            ],
-            "Gambler (6)": [
-                0,
+            "Gambler (4)": [
                 99,
                 0
             ]
@@ -2204,12 +3056,6 @@
         "variations": {
             "Rapid Thruster WI": [
                 0,
-                0,
-                0
-            ],
-            "Rapid Thruster WI (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2225,17 +3071,10 @@
         "variations": {
             "Samurai": [
                 0,
-                0,
                 0
             ],
             "Samurai (1)": [
-                0,
                 99,
-                0
-            ],
-            "Samurai (2)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2250,12 +3089,6 @@
         "type": "enemy",
         "variations": {
             "Creeper": [
-                0,
-                0,
-                0
-            ],
-            "Creeper (1)": [
-                1,
                 0,
                 0
             ]
@@ -2272,16 +3105,9 @@
         "variations": {
             "Dusk": [
                 0,
-                0,
                 0
             ],
             "Dusk (1)": [
-                1,
-                0,
-                0
-            ],
-            "Dusk (2)": [
-                0,
                 99,
                 0
             ]
@@ -2298,12 +3124,6 @@
         "variations": {
             "Sniper": [
                 0,
-                0,
-                0
-            ],
-            "Sniper (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2319,18 +3139,57 @@
         "variations": {
             "Sorcerer": [
                 0,
-                0,
-                0
-            ],
-            "Sorcerer (1)": [
-                1,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 50
+    },
+    "(M) Soldier (WI)": {
+        "obj_id": 1849,
+        "model": "M_EX010_WI",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Soldier (WI)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Emerald Blues (TR)": {
+        "obj_id": 1852,
+        "model": "M_EX120_TR",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Emerald Blues (TR)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Camo Cannon": {
+        "obj_id": 2407,
+        "model": "M_EX650_HB",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Camo Cannon": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Data Roxas": {
         "obj_id": 2385,
@@ -2340,11 +3199,9 @@
         "variations": {
             "Data Roxas": [
                 0,
-                0,
                 0
             ],
             "Data Roxas (1)": [
-                0,
                 0,
                 1
             ]
@@ -2361,16 +3218,9 @@
         "variations": {
             "Strafer": [
                 0,
-                0,
                 10
             ],
             "Strafer (1)": [
-                1,
-                0,
-                10
-            ],
-            "Strafer (2)": [
-                0,
                 0,
                 0
             ]
@@ -2379,6 +3229,152 @@
         "islarge": false,
         "enmp_index": 94
     },
+    "(M) Shadow (RAW)": {
+        "obj_id": 1365,
+        "model": "M_EX020_RAW",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Shadow (RAW)": [
+                0,
+                0
+            ],
+            "(M) Shadow (RAW) (1)": [
+                99,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(P) Shadow Roxas": {
+        "obj_id": 1876,
+        "model": "P_EX130",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(P) Shadow Roxas": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Mushroom 13 (EX)": {
+        "obj_id": 2354,
+        "model": "M_EX350_13",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Mushroom 13 (EX)": [
+                1,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (1)": [
+                2,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (2)": [
+                3,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (3)": [
+                4,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (4)": [
+                5,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (5)": [
+                6,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (6)": [
+                7,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (7)": [
+                8,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (8)": [
+                9,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (9)": [
+                10,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (10)": [
+                11,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (11)": [
+                12,
+                0
+            ],
+            "(M) Mushroom 13 (EX) (12)": [
+                13,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(F) ??? - Path? Pyramid? Sparkle? (WI)": {
+        "obj_id": 344,
+        "model": "F_WI000",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(F) ??? - Path? Pyramid? Sparkle? (WI)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Rapid Thruster (RAW)": {
+        "obj_id": 1368,
+        "model": "M_EX660_RAW",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Rapid Thruster (RAW)": [
+                0,
+                0
+            ],
+            "(M) Rapid Thruster (RAW) (1)": [
+                1,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Reckless": {
+        "obj_id": 2408,
+        "model": "M_EX680_HB",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Reckless": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Jafar": {
         "obj_id": 348,
         "model": "B_AL020",
@@ -2386,7 +3382,6 @@
         "type": "boss",
         "variations": {
             "Jafar": [
-                0,
                 0,
                 0
             ]
@@ -2403,7 +3398,6 @@
         "variations": {
             "Hades I": [
                 0,
-                0,
                 0
             ]
         },
@@ -2418,12 +3412,10 @@
         "type": "boss",
         "variations": {
             "Hades II": [
-                0,
                 1,
                 0
             ],
             "Hades II (1)": [
-                0,
                 0,
                 0
             ]
@@ -2440,11 +3432,9 @@
         "variations": {
             "Cerberus": [
                 0,
-                0,
                 0
             ],
             "Cerberus (1)": [
-                0,
                 1,
                 0
             ]
@@ -2460,17 +3450,14 @@
         "type": "enemy",
         "variations": {
             "Crimson Jazz AL": [
-                0,
                 8,
                 1
             ],
             "Crimson Jazz AL (1)": [
-                0,
                 12,
                 0
             ],
             "Crimson Jazz AL (2)": [
-                0,
                 4,
                 0
             ]
@@ -2487,7 +3474,6 @@
         "variations": {
             "Dark Thorn": [
                 0,
-                0,
                 0
             ]
         },
@@ -2503,11 +3489,9 @@
         "variations": {
             "Data Larxene": [
                 0,
-                0,
                 1
             ],
             "Data Larxene (1)": [
-                0,
                 0,
                 0
             ]
@@ -2524,12 +3508,6 @@
         "variations": {
             "Beffudler": [
                 0,
-                0,
-                0
-            ],
-            "Beffudler (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2544,97 +3522,78 @@
         "type": "enemy",
         "variations": {
             "Hook Bat AL": [
-                0,
                 3,
                 0
             ],
             "Hook Bat AL (1)": [
-                0,
                 9,
                 0
             ],
             "Hook Bat AL (2)": [
-                0,
                 11,
                 0
             ],
             "Hook Bat AL (3)": [
-                0,
                 1,
                 0
             ],
             "Hook Bat AL (4)": [
-                0,
                 10,
                 0
             ],
             "Hook Bat AL (5)": [
-                0,
                 14,
                 0
             ],
             "Hook Bat AL (6)": [
-                0,
                 12,
                 0
             ],
             "Hook Bat AL (7)": [
-                0,
                 13,
                 0
             ],
             "Hook Bat AL (8)": [
-                0,
                 7,
                 0
             ],
             "Hook Bat AL (9)": [
-                0,
                 3,
                 20
             ],
             "Hook Bat AL (10)": [
-                0,
                 4,
                 0
             ],
             "Hook Bat AL (11)": [
-                0,
                 15,
                 30
             ],
             "Hook Bat AL (12)": [
-                0,
                 1,
                 31
             ],
             "Hook Bat AL (13)": [
-                0,
                 3,
                 30
             ],
             "Hook Bat AL (14)": [
-                0,
                 8,
                 32
             ],
             "Hook Bat AL (15)": [
-                0,
                 13,
                 31
             ],
             "Hook Bat AL (16)": [
-                0,
                 2,
                 0
             ],
             "Hook Bat AL (17)": [
-                0,
                 5,
                 0
             ],
             "Hook Bat AL (18)": [
-                0,
                 6,
                 0
             ]
@@ -2649,7 +3608,6 @@
         "type": "boss",
         "variations": {
             "Hydra": [
-                0,
                 0,
                 0
             ]
@@ -2666,7 +3624,6 @@
         "variations": {
             "Illuminator": [
                 0,
-                0,
                 0
             ]
         },
@@ -2681,12 +3638,6 @@
         "type": "enemy",
         "variations": {
             "Iron Hammer": [
-                0,
-                0,
-                0
-            ],
-            "Iron Hammer (1)": [
-                1,
                 0,
                 0
             ]
@@ -2703,12 +3654,6 @@
         "variations": {
             "Lance Warrior": [
                 0,
-                0,
-                0
-            ],
-            "Lance Warrior (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2723,12 +3668,6 @@
         "type": "enemy",
         "variations": {
             "Mad Ride": [
-                0,
-                0,
-                0
-            ],
-            "Mad Ride (1)": [
-                1,
                 0,
                 0
             ]
@@ -2745,12 +3684,6 @@
         "variations": {
             "Magic Phantom": [
                 0,
-                0,
-                0
-            ],
-            "Magic Phantom (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2765,12 +3698,6 @@
         "type": "enemy",
         "variations": {
             "Necromancer": [
-                0,
-                0,
-                0
-            ],
-            "Necromancer (1)": [
-                1,
                 0,
                 0
             ]
@@ -2787,7 +3714,6 @@
         "variations": {
             "Aerial Viking": [
                 0,
-                0,
                 0
             ]
         },
@@ -2802,7 +3728,6 @@
         "type": "boss",
         "variations": {
             "Pete TR": [
-                0,
                 4,
                 0
             ]
@@ -2817,12 +3742,6 @@
         "type": "enemy",
         "variations": {
             "Runemaster": [
-                0,
-                0,
-                0
-            ],
-            "Runemaster (1)": [
-                1,
                 0,
                 0
             ]
@@ -2839,12 +3758,6 @@
         "variations": {
             "Spring Metal": [
                 0,
-                0,
-                0
-            ],
-            "Spring Metal (1)": [
-                1,
-                0,
                 0
             ]
         },
@@ -2860,13 +3773,74 @@
         "variations": {
             "Terra": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 220
+    },
+    "(M) Gargoyle Knight": {
+        "obj_id": 367,
+        "model": "M_BB010_SWORD",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Gargoyle Knight": [
+                30,
+                0
+            ],
+            "(M) Gargoyle Knight (1)": [
+                32,
+                0
+            ],
+            "(M) Gargoyle Knight (2)": [
+                34,
+                0
+            ],
+            "(M) Gargoyle Knight (3)": [
+                36,
+                0
+            ],
+            "(M) Gargoyle Knight (4)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Gargoyle Warrior": {
+        "obj_id": 368,
+        "model": "M_BB010_AX",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Gargoyle Warrior": [
+                40,
+                0
+            ],
+            "(M) Gargoyle Warrior (1)": [
+                42,
+                0
+            ],
+            "(M) Gargoyle Warrior (2)": [
+                44,
+                0
+            ],
+            "(M) Gargoyle Warrior (3)": [
+                46,
+                0
+            ],
+            "(M) Gargoyle Warrior (4)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
     },
     "Data Zexion": {
         "obj_id": 2427,
@@ -2876,11 +3850,9 @@
         "variations": {
             "Data Zexion": [
                 0,
-                0,
                 1
             ],
             "Data Zexion (1)": [
-                0,
                 0,
                 0
             ]
@@ -2889,6 +3861,36 @@
         "islarge": false,
         "enmp_index": 193
     },
+    "(M) Armored Knight (RAW) (1000 battle)": {
+        "obj_id": 1468,
+        "model": "M_EX760_RAW",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Armored Knight (RAW) (1000 battle)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "(M) Surveillance Robot (RAW) (1000 battle)": {
+        "obj_id": 1469,
+        "model": "M_EX770_RAW",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Surveillance Robot (RAW) (1000 battle)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Data Axel": {
         "obj_id": 2500,
         "model": "B_EX110_LV99",
@@ -2896,7 +3898,6 @@
         "type": "boss",
         "variations": {
             "Data Axel": [
-                0,
                 0,
                 0
             ]
@@ -2913,7 +3914,6 @@
         "variations": {
             "Data Xigbar": [
                 0,
-                0,
                 0
             ]
         },
@@ -2928,7 +3928,6 @@
         "type": "boss",
         "variations": {
             "Data Saix": [
-                0,
                 0,
                 0
             ]
@@ -2945,7 +3944,6 @@
         "variations": {
             "Giant Sark": [
                 0,
-                0,
                 0
             ]
         },
@@ -2960,7 +3958,6 @@
         "type": "boss",
         "variations": {
             "Data Luxord": [
-                0,
                 0,
                 0
             ]
@@ -2977,7 +3974,6 @@
         "variations": {
             "Data Xemnas": [
                 0,
-                0,
                 0
             ]
         },
@@ -2993,11 +3989,9 @@
         "variations": {
             "Data Final Xemnas": [
                 0,
-                0,
                 0
             ],
             "Data Final Xemnas (1)": [
-                0,
                 1,
                 0
             ]
@@ -3014,7 +4008,6 @@
         "variations": {
             "Data Xaldin": [
                 0,
-                0,
                 0
             ]
         },
@@ -3029,7 +4022,6 @@
         "type": "boss",
         "variations": {
             "Data Demyx": [
-                0,
                 1,
                 0
             ]
@@ -3038,6 +4030,25 @@
         "islarge": false,
         "enmp_index": 216
     },
+    "(M) Bulky Vendor (NM)": {
+        "obj_id": 2509,
+        "model": "M_EX590_NM",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Bulky Vendor (NM)": [
+                1,
+                0
+            ],
+            "(M) Bulky Vendor (NM) (1)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
     "Prison Keeper": {
         "obj_id": 1486,
         "model": "B_NM100",
@@ -3045,7 +4056,6 @@
         "type": "boss",
         "variations": {
             "Prison Keeper": [
-                0,
                 0,
                 0
             ]
@@ -3062,7 +4072,6 @@
         "variations": {
             "The Experiment": [
                 0,
-                0,
                 0
             ]
         },
@@ -3078,13 +4087,64 @@
         "variations": {
             "Xaldin": [
                 0,
-                0,
                 0
             ]
         },
         "enabled": true,
         "islarge": false,
         "enmp_index": 82
+    },
+    "(M) Large Body (WI)": {
+        "obj_id": 2025,
+        "model": "M_EX050_WI",
+        "size": 0,
+        "type": "enemy",
+        "variations": {
+            "(M) Large Body (WI)": [
+                0,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 999
+    },
+    "Oogie Terminal Dummy": {
+        "obj_id": 1003,
+        "model": "F_NM080",
+        "size": 434622,
+        "type": "extra",
+        "variations": {
+            "Oogie Terminal Dummy": [
+                0,
+                0
+            ]
+        },
+        "enabled": false,
+        "islarge": false
+    },
+    "Soldier": {
+        "obj_id": 301,
+        "model": "M_EX010",
+        "size": 787284,
+        "type": "enemy",
+        "variations": {
+            "Soldier": [
+                0,
+                0
+            ],
+            "Soldier (1)": [
+                1,
+                0
+            ],
+            "Soldier (2)": [
+                99,
+                0
+            ]
+        },
+        "enabled": true,
+        "islarge": false,
+        "enmp_index": 32
     },
     "Barbossa": {
         "obj_id": 1015,
@@ -3093,7 +4153,6 @@
         "type": "boss",
         "variations": {
             "Barbossa": [
-                0,
                 0,
                 0
             ]
@@ -3109,7 +4168,6 @@
         "type": "boss",
         "variations": {
             "Luxord": [
-                0,
                 0,
                 0
             ]
