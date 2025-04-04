@@ -24,6 +24,12 @@ class openKH:
         self._run_binary('OpenKh.Command.Bar.exe', args=['unpack', '-o', outdir, bar])
     def bar_build(self, projectfn, outputfn):
         self._run_binary('OpenKh.Command.Bar.exe', args=['pack', '-o', outputfn, projectfn])
+    def arc_extract(self, arc, outdir):
+        # extract arc file to a directory (must exist)
+        self._run_binary('OpenKh.Command.Arc.exe', args=[arc, outdir])
+    def arc_build(self, arc, outdir):
+        # extract arc file to a directory (must exist)
+        self._run_binary('OpenKh.Command.Arc.exe', args=["-p", arc, outdir])
     def spawnscript_extract(self, pth, outfn):
         self._run_binary('OpenKh.Command.SpawnScript.exe', args=['decompile', '-o', outfn, pth], debug=True)
     def spawnscript_compile(self, pth, outfn):
@@ -32,4 +38,7 @@ class openKH:
         self._run_binary('OpenKh.Command.SpawnScript.exe', args=['unpoint', '-o', outfn, pth])
     def spawnpoint_build(self, pth, outfn):
         self._run_binary('OpenKh.Command.SpawnScript.exe', args=['repoint', '-o', outfn, pth])
-                
+    def bdx_extract(self, pth, outfn):
+        self._run_binary('OpenKh.Command.Bdxio.exe', args=['decode', "-r", "-b", pth, outfn])
+    def bdx_compile(self, pth, outfn):
+        self._run_binary('OpenKh.Command.Bdxio.exe', args=['encode', pth, outfn])

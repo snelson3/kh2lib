@@ -1,0 +1,796 @@
+assets:
+- method: copy
+  name: arc\map\bd01.arc
+  source:
+  - name: arc\map\bd01.arc
+- method: copy
+  name: arc\map\bd03.arc
+  source:
+  - name: arc\map\bd03.arc
+- method: copy
+  name: arc\map\bd09.arc
+  source:
+  - name: arc\map\bd09.arc
+- method: copy
+  name: arc\map\bd11.arc
+  source:
+  - name: arc\map\bd11.arc
+- method: copy
+  name: arc\map\bd12.arc
+  source:
+  - name: arc\map\bd12.arc
+- method: copy
+  name: arc\map\bd18.arc
+  source:
+  - name: arc\map\bd18.arc
+- method: copy
+  name: arc\map\bd19.arc
+  source:
+  - name: arc\map\bd19.arc
+- method: copy
+  name: arc\map\cd01.arc
+  source:
+  - name: arc\map\cd01.arc
+- method: copy
+  name: arc\map\cd02.arc
+  source:
+  - name: arc\map\cd02.arc
+- method: copy
+  name: arc\map\cd03.arc
+  source:
+  - name: arc\map\cd03.arc
+- method: copy
+  name: arc\map\cd04.arc
+  source:
+  - name: arc\map\cd04.arc
+- method: copy
+  name: arc\map\cd05.arc
+  source:
+  - name: arc\map\cd05.arc
+- method: copy
+  name: arc\map\cd06.arc
+  source:
+  - name: arc\map\cd06.arc
+- method: copy
+  name: arc\map\cd07.arc
+  source:
+  - name: arc\map\cd07.arc
+- method: copy
+  name: arc\map\cd08.arc
+  source:
+  - name: arc\map\cd08.arc
+- method: copy
+  name: arc\map\cd09.arc
+  source:
+  - name: arc\map\cd09.arc
+- method: copy
+  name: arc\map\cd10.arc
+  source:
+  - name: arc\map\cd10.arc
+- method: copy
+  name: arc\map\cd11.arc
+  source:
+  - name: arc\map\cd11.arc
+- method: copy
+  name: arc\map\cd12.arc
+  source:
+  - name: arc\map\cd12.arc
+- method: copy
+  name: arc\map\cd13.arc
+  source:
+  - name: arc\map\cd13.arc
+- method: copy
+  name: arc\map\dc01.arc
+  source:
+  - name: arc\map\dc01.arc
+- method: copy
+  name: arc\map\dc02.arc
+  source:
+  - name: arc\map\dc02.arc
+- method: copy
+  name: arc\map\dc03.arc
+  source:
+  - name: arc\map\dc03.arc
+- method: copy
+  name: arc\map\dc04.arc
+  source:
+  - name: arc\map\dc04.arc
+- method: copy
+  name: arc\map\dc05.arc
+  source:
+  - name: arc\map\dc05.arc
+- method: copy
+  name: arc\map\dc06.arc
+  source:
+  - name: arc\map\dc06.arc
+- method: copy
+  name: arc\map\dc07.arc
+  source:
+  - name: arc\map\dc07.arc
+- method: copy
+  name: arc\map\dc08.arc
+  source:
+  - name: arc\map\dc08.arc
+- method: copy
+  name: arc\map\dc09.arc
+  source:
+  - name: arc\map\dc09.arc
+- method: copy
+  name: arc\map\dc10.arc
+  source:
+  - name: arc\map\dc10.arc
+- method: copy
+  name: arc\map\dc11.arc
+  source:
+  - name: arc\map\dc11.arc
+- method: copy
+  name: arc\map\dc12.arc
+  source:
+  - name: arc\map\dc12.arc
+- method: copy
+  name: arc\map\dc13.arc
+  source:
+  - name: arc\map\dc13.arc
+- method: copy
+  name: arc\map\dc14.arc
+  source:
+  - name: arc\map\dc14.arc
+- method: copy
+  name: arc\map\di01.arc
+  source:
+  - name: arc\map\di01.arc
+- method: copy
+  name: arc\map\di02.arc
+  source:
+  - name: arc\map\di02.arc
+- method: copy
+  name: arc\map\di03.arc
+  source:
+  - name: arc\map\di03.arc
+- method: copy
+  name: arc\map\di04.arc
+  source:
+  - name: arc\map\di04.arc
+- method: copy
+  name: arc\map\dp01.arc
+  source:
+  - name: arc\map\dp01.arc
+- method: copy
+  name: arc\map\dp02.arc
+  source:
+  - name: arc\map\dp02.arc
+- method: copy
+  name: arc\map\dp03.arc
+  source:
+  - name: arc\map\dp03.arc
+- method: copy
+  name: arc\map\dp04.arc
+  source:
+  - name: arc\map\dp04.arc
+- method: copy
+  name: arc\map\dp05.arc
+  source:
+  - name: arc\map\dp05.arc
+- method: copy
+  name: arc\map\dp06.arc
+  source:
+  - name: arc\map\dp06.arc
+- method: copy
+  name: arc\map\dp07.arc
+  source:
+  - name: arc\map\dp07.arc
+- method: copy
+  name: arc\map\dp08.arc
+  source:
+  - name: arc\map\dp08.arc
+- method: copy
+  name: arc\map\dp09.arc
+  source:
+  - name: arc\map\dp09.arc
+- method: copy
+  name: arc\map\dp11.arc
+  source:
+  - name: arc\map\dp11.arc
+- method: copy
+  name: arc\map\dp12.arc
+  source:
+  - name: arc\map\dp12.arc
+- method: copy
+  name: arc\map\dp13.arc
+  source:
+  - name: arc\map\dp13.arc
+- method: copy
+  name: arc\map\dp14.arc
+  source:
+  - name: arc\map\dp14.arc
+- method: copy
+  name: arc\map\dp15.arc
+  source:
+  - name: arc\map\dp15.arc
+- method: copy
+  name: arc\map\dp16.arc
+  source:
+  - name: arc\map\dp16.arc
+- method: copy
+  name: arc\map\he01.arc
+  source:
+  - name: arc\map\he01.arc
+- method: copy
+  name: arc\map\he02.arc
+  source:
+  - name: arc\map\he02.arc
+- method: copy
+  name: arc\map\he03.arc
+  source:
+  - name: arc\map\he03.arc
+- method: copy
+  name: arc\map\he04.arc
+  source:
+  - name: arc\map\he04.arc
+- method: copy
+  name: arc\map\he05.arc
+  source:
+  - name: arc\map\he05.arc
+- method: copy
+  name: arc\map\he06.arc
+  source:
+  - name: arc\map\he06.arc
+- method: copy
+  name: arc\map\jb20.arc
+  source:
+  - name: arc\map\jb20.arc
+- method: copy
+  name: arc\map\jb21.arc
+  source:
+  - name: arc\map\jb21.arc
+- method: copy
+  name: arc\map\jb22.arc
+  source:
+  - name: arc\map\jb22.arc
+- method: copy
+  name: arc\map\jb23.arc
+  source:
+  - name: arc\map\jb23.arc
+- method: copy
+  name: arc\map\jb24.arc
+  source:
+  - name: arc\map\jb24.arc
+- method: copy
+  name: arc\map\jb50.arc
+  source:
+  - name: arc\map\jb50.arc
+- method: copy
+  name: arc\map\jb52.arc
+  source:
+  - name: arc\map\jb52.arc
+- method: copy
+  name: arc\map\jb53.arc
+  source:
+  - name: arc\map\jb53.arc
+- method: copy
+  name: arc\map\kg01.arc
+  source:
+  - name: arc\map\kg01.arc
+- method: copy
+  name: arc\map\kg02.arc
+  source:
+  - name: arc\map\kg02.arc
+- method: copy
+  name: arc\map\kg03.arc
+  source:
+  - name: arc\map\kg03.arc
+- method: copy
+  name: arc\map\kg04.arc
+  source:
+  - name: arc\map\kg04.arc
+- method: copy
+  name: arc\map\kg05.arc
+  source:
+  - name: arc\map\kg05.arc
+- method: copy
+  name: arc\map\kg06.arc
+  source:
+  - name: arc\map\kg06.arc
+- method: copy
+  name: arc\map\kg07.arc
+  source:
+  - name: arc\map\kg07.arc
+- method: copy
+  name: arc\map\kg08.arc
+  source:
+  - name: arc\map\kg08.arc
+- method: copy
+  name: arc\map\kg09.arc
+  source:
+  - name: arc\map\kg09.arc
+- method: copy
+  name: arc\map\kg10.arc
+  source:
+  - name: arc\map\kg10.arc
+- method: copy
+  name: arc\map\kg11.arc
+  source:
+  - name: arc\map\kg11.arc
+- method: copy
+  name: arc\map\kg12.arc
+  source:
+  - name: arc\map\kg12.arc
+- method: copy
+  name: arc\map\kg50.arc
+  source:
+  - name: arc\map\kg50.arc
+- method: copy
+  name: arc\map\kg51.arc
+  source:
+  - name: arc\map\kg51.arc
+- method: copy
+  name: arc\map\kg52.arc
+  source:
+  - name: arc\map\kg52.arc
+- method: copy
+  name: arc\map\kg53.arc
+  source:
+  - name: arc\map\kg53.arc
+- method: copy
+  name: arc\map\kg55.arc
+  source:
+  - name: arc\map\kg55.arc
+- method: copy
+  name: arc\map\kg56.arc
+  source:
+  - name: arc\map\kg56.arc
+- method: copy
+  name: arc\map\ls01.arc
+  source:
+  - name: arc\map\ls01.arc
+- method: copy
+  name: arc\map\ls02.arc
+  source:
+  - name: arc\map\ls02.arc
+- method: copy
+  name: arc\map\ls03.arc
+  source:
+  - name: arc\map\ls03.arc
+- method: copy
+  name: arc\map\ls04.arc
+  source:
+  - name: arc\map\ls04.arc
+- method: copy
+  name: arc\map\ls05.arc
+  source:
+  - name: arc\map\ls05.arc
+- method: copy
+  name: arc\map\ls06.arc
+  source:
+  - name: arc\map\ls06.arc
+- method: copy
+  name: arc\map\ls07.arc
+  source:
+  - name: arc\map\ls07.arc
+- method: copy
+  name: arc\map\ls08.arc
+  source:
+  - name: arc\map\ls08.arc
+- method: copy
+  name: arc\map\ls09.arc
+  source:
+  - name: arc\map\ls09.arc
+- method: copy
+  name: arc\map\ls10.arc
+  source:
+  - name: arc\map\ls10.arc
+- method: copy
+  name: arc\map\ls11.arc
+  source:
+  - name: arc\map\ls11.arc
+- method: copy
+  name: arc\map\ls12.arc
+  source:
+  - name: arc\map\ls12.arc
+- method: copy
+  name: arc\map\ls13.arc
+  source:
+  - name: arc\map\ls13.arc
+- method: copy
+  name: arc\map\ls14.arc
+  source:
+  - name: arc\map\ls14.arc
+- method: copy
+  name: arc\map\pp01.arc
+  source:
+  - name: arc\map\pp01.arc
+- method: copy
+  name: arc\map\pp02.arc
+  source:
+  - name: arc\map\pp02.arc
+- method: copy
+  name: arc\map\pp03.arc
+  source:
+  - name: arc\map\pp03.arc
+- method: copy
+  name: arc\map\pp04.arc
+  source:
+  - name: arc\map\pp04.arc
+- method: copy
+  name: arc\map\pp05.arc
+  source:
+  - name: arc\map\pp05.arc
+- method: copy
+  name: arc\map\pp06.arc
+  source:
+  - name: arc\map\pp06.arc
+- method: copy
+  name: arc\map\pp07.arc
+  source:
+  - name: arc\map\pp07.arc
+- method: copy
+  name: arc\map\pp08.arc
+  source:
+  - name: arc\map\pp08.arc
+- method: copy
+  name: arc\map\pp09.arc
+  source:
+  - name: arc\map\pp09.arc
+- method: copy
+  name: arc\map\pp10.arc
+  source:
+  - name: arc\map\pp10.arc
+- method: copy
+  name: arc\map\pp11.arc
+  source:
+  - name: arc\map\pp11.arc
+- method: copy
+  name: arc\map\pp12.arc
+  source:
+  - name: arc\map\pp12.arc
+- method: copy
+  name: arc\map\pp13.arc
+  source:
+  - name: arc\map\pp13.arc
+- method: copy
+  name: arc\map\pp14.arc
+  source:
+  - name: arc\map\pp14.arc
+- method: copy
+  name: arc\map\rg01.arc
+  source:
+  - name: arc\map\rg01.arc
+- method: copy
+  name: arc\map\rg02.arc
+  source:
+  - name: arc\map\rg02.arc
+- method: copy
+  name: arc\map\rg03.arc
+  source:
+  - name: arc\map\rg03.arc
+- method: copy
+  name: arc\map\rg04.arc
+  source:
+  - name: arc\map\rg04.arc
+- method: copy
+  name: arc\map\rg05.arc
+  source:
+  - name: arc\map\rg05.arc
+- method: copy
+  name: arc\map\rg06.arc
+  source:
+  - name: arc\map\rg06.arc
+- method: copy
+  name: arc\map\rg07.arc
+  source:
+  - name: arc\map\rg07.arc
+- method: copy
+  name: arc\map\rg08.arc
+  source:
+  - name: arc\map\rg08.arc
+- method: copy
+  name: arc\map\rg09.arc
+  source:
+  - name: arc\map\rg09.arc
+- method: copy
+  name: arc\map\rg10.arc
+  source:
+  - name: arc\map\rg10.arc
+- method: copy
+  name: arc\map\rg11.arc
+  source:
+  - name: arc\map\rg11.arc
+- method: copy
+  name: arc\map\rg12.arc
+  source:
+  - name: arc\map\rg12.arc
+- method: copy
+  name: arc\map\rg13.arc
+  source:
+  - name: arc\map\rg13.arc
+- method: copy
+  name: arc\map\rg14.arc
+  source:
+  - name: arc\map\rg14.arc
+- method: copy
+  name: arc\map\sb01.arc
+  source:
+  - name: arc\map\sb01.arc
+- method: copy
+  name: arc\map\sb02.arc
+  source:
+  - name: arc\map\sb02.arc
+- method: copy
+  name: arc\map\sb03.arc
+  source:
+  - name: arc\map\sb03.arc
+- method: copy
+  name: arc\map\sb04.arc
+  source:
+  - name: arc\map\sb04.arc
+- method: copy
+  name: arc\map\sb05.arc
+  source:
+  - name: arc\map\sb05.arc
+- method: copy
+  name: arc\map\sb06.arc
+  source:
+  - name: arc\map\sb06.arc
+- method: copy
+  name: arc\map\sb07.arc
+  source:
+  - name: arc\map\sb07.arc
+- method: copy
+  name: arc\map\sb08.arc
+  source:
+  - name: arc\map\sb08.arc
+- method: copy
+  name: arc\map\sb09.arc
+  source:
+  - name: arc\map\sb09.arc
+- method: copy
+  name: arc\map\sb10.arc
+  source:
+  - name: arc\map\sb10.arc
+- method: copy
+  name: arc\map\sb11.arc
+  source:
+  - name: arc\map\sb11.arc
+- method: copy
+  name: arc\map\sb12.arc
+  source:
+  - name: arc\map\sb12.arc
+- method: copy
+  name: arc\map\sb14.arc
+  source:
+  - name: arc\map\sb14.arc
+- method: copy
+  name: arc\map\sb15.arc
+  source:
+  - name: arc\map\sb15.arc
+- method: copy
+  name: arc\map\sb16.arc
+  source:
+  - name: arc\map\sb16.arc
+- method: copy
+  name: arc\map\sb17.arc
+  source:
+  - name: arc\map\sb17.arc
+- method: copy
+  name: arc\map\sb18.arc
+  source:
+  - name: arc\map\sb18.arc
+- method: copy
+  name: arc\map\sb19.arc
+  source:
+  - name: arc\map\sb19.arc
+- method: copy
+  name: arc\map\sb20.arc
+  source:
+  - name: arc\map\sb20.arc
+- method: copy
+  name: arc\map\sb21.arc
+  source:
+  - name: arc\map\sb21.arc
+- method: copy
+  name: arc\map\sb22.arc
+  source:
+  - name: arc\map\sb22.arc
+- method: copy
+  name: arc\map\sb23.arc
+  source:
+  - name: arc\map\sb23.arc
+- method: copy
+  name: arc\map\sb24.arc
+  source:
+  - name: arc\map\sb24.arc
+- method: copy
+  name: arc\map\sb26.arc
+  source:
+  - name: arc\map\sb26.arc
+- method: copy
+  name: arc\map\sb27.arc
+  source:
+  - name: arc\map\sb27.arc
+- method: copy
+  name: arc\map\sb28.arc
+  source:
+  - name: arc\map\sb28.arc
+- method: copy
+  name: arc\map\sb29.arc
+  source:
+  - name: arc\map\sb29.arc
+- method: copy
+  name: arc\map\sb32.arc
+  source:
+  - name: arc\map\sb32.arc
+- method: copy
+  name: arc\map\sb33.arc
+  source:
+  - name: arc\map\sb33.arc
+- method: copy
+  name: arc\map\sb34.arc
+  source:
+  - name: arc\map\sb34.arc
+- method: copy
+  name: arc\map\sb36.arc
+  source:
+  - name: arc\map\sb36.arc
+- method: copy
+  name: arc\map\sb37.arc
+  source:
+  - name: arc\map\sb37.arc
+- method: copy
+  name: arc\map\sb38.arc
+  source:
+  - name: arc\map\sb38.arc
+- method: copy
+  name: arc\map\sb39.arc
+  source:
+  - name: arc\map\sb39.arc
+- method: copy
+  name: arc\map\sw01.arc
+  source:
+  - name: arc\map\sw01.arc
+- method: copy
+  name: arc\map\sw02.arc
+  source:
+  - name: arc\map\sw02.arc
+- method: copy
+  name: arc\map\sw03.arc
+  source:
+  - name: arc\map\sw03.arc
+- method: copy
+  name: arc\map\sw04.arc
+  source:
+  - name: arc\map\sw04.arc
+- method: copy
+  name: arc\map\sw05.arc
+  source:
+  - name: arc\map\sw05.arc
+- method: copy
+  name: arc\map\sw06.arc
+  source:
+  - name: arc\map\sw06.arc
+- method: copy
+  name: arc\map\sw07.arc
+  source:
+  - name: arc\map\sw07.arc
+- method: copy
+  name: arc\map\sw08.arc
+  source:
+  - name: arc\map\sw08.arc
+- method: copy
+  name: arc\map\sw09.arc
+  source:
+  - name: arc\map\sw09.arc
+- method: copy
+  name: arc\map\sw10.arc
+  source:
+  - name: arc\map\sw10.arc
+- method: copy
+  name: arc\map\sw11.arc
+  source:
+  - name: arc\map\sw11.arc
+- method: copy
+  name: arc\map\sw12.arc
+  source:
+  - name: arc\map\sw12.arc
+- method: copy
+  name: arc\map\vs01.arc
+  source:
+  - name: arc\map\vs01.arc
+- method: copy
+  name: arc\map\vs02.arc
+  source:
+  - name: arc\map\vs02.arc
+- method: copy
+  name: arc\map\vs03.arc
+  source:
+  - name: arc\map\vs03.arc
+- method: copy
+  name: arc\map\vs04.arc
+  source:
+  - name: arc\map\vs04.arc
+- method: copy
+  name: arc\map\vs05.arc
+  source:
+  - name: arc\map\vs05.arc
+- method: copy
+  name: arc\map\vs06.arc
+  source:
+  - name: arc\map\vs06.arc
+- method: copy
+  name: arc\map\vs07.arc
+  source:
+  - name: arc\map\vs07.arc
+- method: copy
+  name: arc\map\vs08.arc
+  source:
+  - name: arc\map\vs08.arc
+- method: copy
+  name: arc\map\vs09.arc
+  source:
+  - name: arc\map\vs09.arc
+- method: copy
+  name: arc\map\vs10.arc
+  source:
+  - name: arc\map\vs10.arc
+- method: copy
+  name: arc\map\vs11.arc
+  source:
+  - name: arc\map\vs11.arc
+- method: copy
+  name: arc\map\vs12.arc
+  source:
+  - name: arc\map\vs12.arc
+- method: copy
+  name: arc\map\vs13.arc
+  source:
+  - name: arc\map\vs13.arc
+- method: copy
+  name: arc\map\vs14.arc
+  source:
+  - name: arc\map\vs14.arc
+- method: copy
+  name: arc\map\vs15.arc
+  source:
+  - name: arc\map\vs15.arc
+- method: copy
+  name: arc\map\vs16.arc
+  source:
+  - name: arc\map\vs16.arc
+- method: copy
+  name: arc\map\vs17.arc
+  source:
+  - name: arc\map\vs17.arc
+- method: copy
+  name: arc\map\vs18.arc
+  source:
+  - name: arc\map\vs18.arc
+- method: copy
+  name: arc\map\vs19.arc
+  source:
+  - name: arc\map\vs19.arc
+- method: copy
+  name: arc\map\vs20.arc
+  source:
+  - name: arc\map\vs20.arc
+- method: copy
+  name: arc\map\wm01.arc
+  source:
+  - name: arc\map\wm01.arc
+- method: copy
+  name: arc\map\yt01.arc
+  source:
+  - name: arc\map\yt01.arc
+- method: copy
+  name: arc\map\yt02.arc
+  source:
+  - name: arc\map\yt02.arc
+- method: copy
+  name: arc\map\yt03.arc
+  source:
+  - name: arc\map\yt03.arc
+- method: copy
+  name: arc\map\yt04.arc
+  source:
+  - name: arc\map\yt04.arc
+description: Autogenerated by kh2lib
+originalAuthor: kh2lib
+title: Autogenerated mod
